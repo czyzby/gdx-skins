@@ -10,4 +10,4 @@ Supports most of **Scene2D** widgets (including the newest tooltips), with notab
 
 ### License
 
-Seems to be the same as the whole **LibGDX** framework. But then again - in commercial products, you might want to try something fancier.
+Seems to be the same as the whole **LibGDX** framework. But then again - in commercial products, you might want to try out something fancier.

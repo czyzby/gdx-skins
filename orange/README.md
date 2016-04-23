@@ -12,7 +12,7 @@ http://creativecommons.org/licenses/by/4.0/
 
 Features styles of most of **Scene2D** widgets. Minimalistic and modern, uses highly vivid colors.
 
-![Orange Peel](preview.gif)
+![Orange Peel](preview.png)
 
 ### Style guide
 

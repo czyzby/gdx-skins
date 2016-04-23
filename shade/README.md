@@ -12,7 +12,7 @@ http://creativecommons.org/licenses/by/4.0/
 
 Features styles of most of **Scene2D** widgets. Looks kind of like the so-called *default* LibGDX skin, but updated and fancier.
 
-![Shade](preview.gif)
+![Shade](preview.png)
 
 ### Style guide
 

@@ -20,15 +20,15 @@ Note that the maintainer of this repository does **NOT** plan to track every sin
 
 Using some skin found in the web is one thing, but customizing it - or creating a new one from scratch - is another. If you're learning *Scene2D* API, make sure to go through these links:
 
-- [Official Scene2D article](https://github.com/libgdx/libgdx/wiki/Scene2d). [Scene2D UI](https://github.com/libgdx/libgdx/wiki/Scene2d.ui) and [`Table`](https://github.com/libgdx/libgdx/wiki/Table) are worth your time as well.
+- [Official Scene2D article](https://github.com/libgdx/libgdx/wiki/Scene2d). [Scene2D UI](https://github.com/libgdx/libgdx/wiki/Scene2d.ui) and [`Table`](https://github.com/libgdx/libgdx/wiki/Table) pages are worth your time as well.
 - [Official `Skin` article](https://github.com/libgdx/libgdx/wiki/Skin).
-- [Official texture packer](https://github.com/libgdx/libgdx/wiki/Texture-packer) and [Hiero tool](https://github.com/libgdx/libgdx/wiki/Hiero), both of which are useful when preparing `Skin` assets.
+- [Official texture packer](https://github.com/libgdx/libgdx/wiki/Texture-packer) and [Hiero tool](https://github.com/libgdx/libgdx/wiki/Hiero) articles, both of which are useful when preparing `Skin` assets.
 - [gdx-skineditor](https://github.com/cobolfoo/gdx-skineditor) is an application that allows you to create custom skins. While it doesn't seem to be currently maintained (and is able to crash from time to time), it's still certainly useful. Keep in mind that it's still worth to understand skin's *JSON* internals before using this tool.
 - [VisUI library](https://github.com/kotcrab/vis-editor/wiki/VisUI) extends *Scene2D* with custom widgets and some default skins. Even if you don't like its flat design theme, consider including this library for the considerably useful new actors.
 - [USL library](https://github.com/kotcrab/vis-editor/wiki/USL) allows you to quickly create *JSON* files thanks to its simplified, less boilerplate-ish, more powerful syntax. `.usl` files are meant be translated to LibGDX `.json` skin definitions before deploying the application - there is no runtime overhead.
 - [LML library](https://github.com/czyzby/gdx-lml/tree/master/lml) makes it easier to create your *Scene2D* views. Instead of verbose Java syntax, LML allows you to create your GUIs with HTML-like templates packed with powerful macros. With LML, you can separate your GUI layer from application's core logic, and quickly use some easily overlooked LibGDX features (like *i18n* support) without the usual Java boilerplate. [VisUI](https://github.com/kotcrab/vis-editor/wiki/VisUI) is also supported in LML thanks to an [extension](https://github.com/czyzby/gdx-lml/tree/master/lml-vis).
 - [GamesFromScratch blog](http://www.gamefromscratch.com/post/2013/11/27/LibGDX-Tutorial-9-Scene2D-Part-1.aspx) includes a simple *Scene2D* tutorial.
-- [This thread](www.badlogicgames.com/forum/viewtopic.php?f=17&t=15209) includes *JSON* highlighter for *IntelliJ/Android Studio* IDEs. No more red spots in your skin files!
+- [This thread](http://www.badlogicgames.com/forum/viewtopic.php?f=17&t=15209) includes *JSON* highlighter for *IntelliJ/Android Studio* IDEs. No more red spots in your skin files!
 - [This thread](http://www.badlogicgames.com/forum/viewtopic.php?f=17&t=22075) contains `TiledNinePatchDrawable`, which might be necessary for some GUIs.
 
 ## Contributing
