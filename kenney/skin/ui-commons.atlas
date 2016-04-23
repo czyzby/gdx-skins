@@ -1,0 +1,84 @@
+
+ui-commons.png
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+icon_closewindow
+  rotate: false
+  xy: 2, 2
+  size: 32, 32
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transparent-black-10
+  rotate: false
+  xy: 36, 2
+  size: 32, 32
+  split: 1, 1, 1, 1
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transparent-black-20
+  rotate: false
+  xy: 70, 2
+  size: 32, 32
+  split: 1, 1, 1, 1
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transparent-black-30
+  rotate: false
+  xy: 104, 2
+  size: 32, 32
+  split: 1, 1, 1, 1
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transparent-black-40
+  rotate: false
+  xy: 138, 2
+  size: 32, 32
+  split: 1, 1, 1, 1
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transparent-black-50
+  rotate: false
+  xy: 172, 2
+  size: 32, 32
+  split: 1, 1, 1, 1
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transparent-black-60
+  rotate: false
+  xy: 206, 2
+  size: 32, 32
+  split: 1, 1, 1, 1
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transparent-black-70
+  rotate: false
+  xy: 240, 2
+  size: 32, 32
+  split: 1, 1, 1, 1
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transparent-black-80
+  rotate: false
+  xy: 274, 2
+  size: 32, 32
+  split: 1, 1, 1, 1
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
+transparent-black-90
+  rotate: false
+  xy: 308, 2
+  size: 32, 32
+  split: 1, 1, 1, 1
+  orig: 32, 32
+  offset: 0, 0
+  index: -1
