@@ -1,0 +1,380 @@
+{
+com.badlogic.gdx.graphics.Color: {
+	white: { r: 1, g: 1, b: 1, a: 1 },
+	orange: { r: 1, g: 0.627451, b: 0.08235294, a: 1 },
+	maroon: { r: 0.6, g: 0.05490196, b: 0.2627451, a: 1 },
+	peach: { r: 0.91764706, g: 0.6862745, b: 0.5137255, a: 1 },
+	bleached_peach: { r: 0.9372549, g: 0.8980392, b: 0.8627451, a: 1 }
+},
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: { file: font-export.fnt },
+	font-title: { file: font-title-export.fnt }
+},
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	dialogDim: {
+		name: white,
+		color: { a: 1, b: 0.2, g: 0.2, r: 0.2 }
+	}
+},
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default: { background: progress-bar, knobBefore: progress-bar-before-knob },
+	default-vertical: { background: progress-bar-vertical, knobBefore: progress-bar-vertical-before-knob },
+	default-horizontal: { background: progress-bar, knobBefore: progress-bar-before-knob }
+},
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		up: button-orange,
+		down: button-orange-down
+	},
+	menu-item: {
+		font: font,
+		fontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		downFontColor: { a: 1, b: 1, g: 1, r: 1 },
+		overFontColor: { a: 1, b: 1, g: 1, r: 1 },
+		up: menu-button-dark-orange,
+		down: menu-button-orange
+	},
+	orange-small: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		up: round-orange,
+		down: round-dark-orange
+	},
+	maroon-small: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 },
+		up: round-maroon,
+		down: round-dark-maroon
+	},
+	maroon: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 },
+		up: button-maroon,
+		down: button-maroon-down
+	},
+	maroon-toggle: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 },
+		checkedFontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 },
+		up: button-maroon,
+		down: button-maroon-down,
+		checked: button-maroon-down
+	},
+	toggle: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		up: button-orange,
+		down: button-orange-down,
+		checked: button-orange-down
+	},
+	maroon-small-toggle: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 },
+		checkedFontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 },
+		up: round-maroon,
+		down: round-dark-maroon,
+		checked: round-dark-maroon
+	},
+	orange-small-toggle: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		checkedFontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		up: round-orange,
+		down: round-dark-orange,
+		checked: round-dark-orange
+	},
+	menu-item-maroon: {
+		font: font,
+		fontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 },
+		downFontColor: { a: 1, b: 1, g: 1, r: 1 },
+		overFontColor: { a: 1, b: 1, g: 1, r: 1 },
+		up: menu-button-dark-maroon,
+		down: menu-button-maroon
+	},
+	menu-maroon: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 },
+		checkedFontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 },
+		up: menu-button-maroon,
+		down: menu-button-dark-maroon,
+		checked: menu-button-dark-maroon
+	},
+	menu: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		downFontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		checkedFontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		up: menu-button-orange,
+		down: menu-button-dark-orange,
+		checked: menu-button-dark-orange
+	}
+},
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: { up: button-orange, down: button-orange-down },
+	settings: {
+		imageUp: image-settings,
+		imageDown: image-settings-down,
+		up: button-orange,
+		down: button-orange-down
+	},
+	music: {
+		imageUp: image-music-off,
+		imageDown: image-music-down,
+		imageChecked: image-music,
+		up: button-orange,
+		down: button-orange-down
+	},
+	help: { imageUp: image-help, imageDown: image-help-down, up: button-orange, down: button-orange-down },
+	menu-up: { up: menu-up, down: menu-down-up },
+	left: { imageUp: image-left, imageDown: image-left-down, up: button-orange, down: button-orange-down },
+	menu-right: { up: menu-right, down: menu-down-right },
+	menu-down: { up: menu-down, down: menu-down-down },
+	menu-middle: { up: menu-middle, down: menu-down-middle },
+	sound: {
+		imageUp: image-sound-off,
+		imageDown: image-sound-down,
+		imageChecked: image-sound,
+		up: button-orange,
+		down: button-orange-down
+	},
+	menu-left: { up: menu-left, down: menu-down-left },
+	info: { imageUp: image-info, imageDown: image-info-down, up: button-orange, down: button-orange-down },
+	right: { imageUp: image-right, imageDown: image-right-down, up: button-orange, down: button-orange-down },
+	menu-center: { up: menu-center, down: menu-down-center }
+},
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-vertical: { handle: splitpane },
+	default-horizontal: { handle: splitpane }
+},
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: { background: touchpad, knob: touchpad-knob }
+},
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: { up: button-orange, down: button-orange-down },
+	toggle: { up: button-orange, down: button-orange-down, checked: button-orange-down },
+	spinner-plus: { up: spinner-plus, down: spinner-plus-down },
+	maroon: { up: button-maroon, down: button-maroon-down },
+	maroon-toggle: { up: button-maroon, down: button-maroon-down, checked: button-maroon-down },
+	close-alt: { up: close-button-alt, down: close-button-alt-down, over: close-button-alt-highlight },
+	close: { up: close-button, down: close-button-down, over: close-button-highlight },
+	spinner-minus: { up: spinner-minus, down: spinner-minus-down }
+},
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window-orange,
+		titleFont: font,
+		titleFontColor: { a: 1, b: 1, g: 1, r: 1 }
+	},
+	dialog: {
+		background: window-orange,
+		titleFont: font,
+		titleFontColor: { a: 1, b: 1, g: 1, r: 1 },
+		stageBackground: bleached-peach
+	},
+	maroon: {
+		background: window-maroon,
+		titleFont: font,
+		titleFontColor: { a: 1, b: 1, g: 1, r: 1 }
+	},
+	peach: {
+		background: window-peach,
+		titleFont: font,
+		titleFontColor: { a: 1, b: 1, g: 1, r: 1 }
+	},
+	dialog-large: {
+		background: window-large,
+		titleFont: font,
+		titleFontColor: { a: 1, b: 1, g: 1, r: 1 },
+		stageBackground: bleached-peach
+	},
+	large: {
+		background: window-large,
+		titleFont: font,
+		titleFontColor: { a: 1, b: 1, g: 1, r: 1 }
+	}
+},
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font,
+		fontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		background: textfield,
+		focusedBackground: textfield-down,
+		cursor: maroon,
+		selection: dim-orange,
+		messageFont: font,
+		messageFontColor: { a: 1, b: 0.8627451, g: 0.8980392, r: 0.9372549 }
+	},
+	search: {
+		font: font,
+		fontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		background: textfield-search,
+		focusedBackground: textfield-search-down,
+		cursor: maroon,
+		selection: dim-orange,
+		messageFont: font,
+		messageFontColor: { a: 1, b: 0.8627451, g: 0.8980392, r: 0.9372549 }
+	},
+	login: {
+		font: font,
+		fontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		background: textfield-login,
+		focusedBackground: textfield-login-down,
+		cursor: maroon,
+		selection: dim-orange,
+		messageFont: font,
+		messageFontColor: { a: 1, b: 0.8627451, g: 0.8980392, r: 0.9372549 }
+	},
+	spinner: {
+		font: font,
+		fontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		background: spinner-text-field,
+		focusedBackground: spinner-text-field-down,
+		cursor: maroon,
+		selection: dim-orange,
+		messageFont: font,
+		messageFontColor: { a: 1, b: 0.8627451, g: 0.8980392, r: 0.9372549 }
+	},
+	password: {
+		font: font,
+		fontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		background: textfield-password,
+		focusedBackground: textfield-password-down,
+		cursor: maroon,
+		selection: dim-orange,
+		messageFont: font,
+		messageFontColor: { a: 1, b: 0.8627451, g: 0.8980392, r: 0.9372549 }
+	}
+},
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: dim-orange,
+		hScroll: scrollbar,
+		hScrollKnob: scrollbar-knob,
+		vScroll: scrollbar-vertical,
+		vScrollKnob: scrollbar-knob
+	},
+	android: {
+		background: dim-orange,
+		hScroll: scrollbar-android,
+		hScrollKnob: scrollbar-android-knob,
+		vScroll: scrollbar-android-vertical,
+		vScrollKnob: scrollbar-android-vertical-knob
+	},
+	no-bg: {
+		hScroll: scrollbar,
+		hScrollKnob: scrollbar-knob,
+		vScroll: scrollbar-vertical,
+		vScrollKnob: scrollbar-knob
+	},
+	android-no-bg: {
+		hScroll: scrollbar-android,
+		hScrollKnob: scrollbar-android-knob,
+		vScroll: scrollbar-android-vertical,
+		vScrollKnob: scrollbar-android-vertical-knob
+	}
+},
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	optional: {
+		font: font,
+		fontColor: { a: 1, b: 0.7, g: 0.7, r: 0.7 }
+	},
+	default: {
+		font: font,
+		fontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 }
+	},
+	error: {
+		font: font,
+		fontColor: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 }
+	},
+	white: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 }
+	},
+	peach: {
+		font: font,
+		fontColor: { a: 1, b: 0.5137255, g: 0.6862745, r: 0.91764706 }
+	},
+	title-white: {
+		font: font-title,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 }
+	},
+	title: {
+		font: font-title,
+		fontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 }
+	}
+},
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: font,
+		fontColorSelected: { a: 1, b: 1, g: 1, r: 1 },
+		fontColorUnselected: { a: 1, b: 1, g: 1, r: 1 },
+		selection: maroon
+	},
+	dimmed: {
+		font: font,
+		fontColorSelected: { a: 1, b: 1, g: 1, r: 1 },
+		fontColorUnselected: { a: 1, b: 0.2627451, g: 0.05490196, r: 0.6 },
+		selection: maroon,
+		background: peach
+	}
+},
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: check-box,
+		checkboxOff: check-box-off,
+		font: font,
+		fontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 }
+	},
+	switch-text: {
+		checkboxOn: switch-text,
+		checkboxOff: switch-text-off,
+		font: font,
+		fontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 }
+	},
+	switch: {
+		checkboxOn: switch,
+		checkboxOff: switch-off,
+		font: font,
+		fontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 }
+	},
+	radio: {
+		checkboxOn: radio-button,
+		checkboxOff: radio-button-off,
+		font: font,
+		fontColor: { a: 1, b: 0.08235294, g: 0.627451, r: 1 }
+	}
+},
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: { plus: plus, minus: minus, selection: round-maroon },
+	folder: { plus: folder, minus: folder-open, selection: round-maroon }
+},
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-vertical: {
+		background: scrollbar-android-vertical,
+		knob: slider-bar-knob,
+		knobBefore: scrollbar-android-vertical-knob
+	},
+	default-horizontal: { background: scrollbar-android, knob: slider-bar-knob, knobBefore: scrollbar-android-knob }
+},
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: font,
+		fontColor: { a: 1, b: 1, g: 1, r: 1 },
+		background: select-box,
+		scrollStyle: default,
+		listStyle: default,
+		backgroundOpen: select-box-down
+	}
+}
+}

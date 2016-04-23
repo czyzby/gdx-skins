@@ -1,0 +1,83 @@
+{
+  com.badlogic.gdx.graphics.g2d.BitmapFont: { 
+    default: { file: com/badlogic/gdx/utils/arial-15.fnt },
+    code: { file: hack.fnt }
+  },
+  com.badlogic.gdx.graphics.Color: {
+    white: { a: 1, b: 1, g: 1, r: 1 },
+    black: { a: 1, b: 0, g: 0, r: 0 },
+    gray: { a: 1, b: 0.175, g: 0.175, r: 0.175 },
+    red: { a: 1, b: 0, g: 0, r: 0.3 },
+    green: { a: 1, b: 0, g: 0.5, r: 0 }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+    black: { name: white, color: black },
+    red: { name: white, color: red },
+    white: { name: white, color: white },
+    gray: { name: white, color: gray },
+    alpha: { name: white, color: { a: 0.5, b: 0, g: 0, r: 0 } },
+    red-alpha: { name: white, color: { a: 0.5, b: 0, g: 0, r: 0.4 } },
+    red-frame: { name: frame, color: red }
+    red-small: { name: cursor, color: red }
+    black-small: { name: cursor, color: black }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+    default: { up: black, over: gray, down: red, disabled: gray },
+    toggle: { up: black, over: gray, down: red, checked: red, disabled: gray }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+    default: { checkboxOn: check-on, checkboxOff: check-off, font: default, fontColor: white }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+    default: { up: black, over: gray, down: red, imageUp: warn }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+    default: { up: black, over: gray, down: red, font: default, fontColor: white, pressedOffsetY: -1, pressedOffsetX: 1, disabled: gray, imageUp: warn }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+    default: { font: default, fontColor: white },
+    code: { font: code, fontColor: white }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+    default: { fontColorUnselected: white, selection: red, fontColorSelected: white, font: default }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+    default-horizontal: { background: progress-background, knobBefore: progress-knob },
+    default-vertical: { background: progress-background-vertical, knobBefore: progress-knob-vertical }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+    default: { vScroll: black, hScrollKnob: red, hScroll: black, vScrollKnob: red }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+    default: { font: default, fontColor: white, background: select, scrollStyle: default, listStyle: { font: default, selection: black, background: red } }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+    default-horizontal: { background: black-small, knob: black, knobOver: gray, knobDown: red, disabledBackground: gray, disabledKnob: gray },
+    default-vertical: { background: black-small, knob: black, knobOver: gray, knobDown: red, disabledBackground: gray, disabledKnob: gray }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+    default-vertical: { handle: red-small },
+    default-horizontal: { handle: red-small }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+    default: { up: black, over: gray, down: red, font: default, fontColor: white, pressedOffsetY: -1, pressedOffsetX: 1, disabled: gray },
+    toggle: { up: black, over: gray, down: red, checked: red, font: default, fontColor: white, pressedOffsetY: -1, pressedOffsetX: 1, disabled: gray }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+    default: { selection: red-alpha, focusedBackground: gray, background: black, font: default, fontColor: white, cursor: cursor },
+    code: { selection: red-alpha, focusedBackground: gray, background: black, font: code, fontColor: white, cursor: cursor }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+    default: { label: default, background: gray }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+    default: { background: gray, knob: black }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+    default: { minus: tree-minus, plus: tree-plus, selection: red, over: gray }
+  },
+  com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+    default: { titleFont: default, background: window, titleFontColor: white },
+    dialog: { titleFont: default, background: window, titleFontColor: white, stageBackground: alpha }
+  }
+}

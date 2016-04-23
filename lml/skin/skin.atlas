@@ -1,0 +1,126 @@
+
+skin.png
+size: 128,128
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+check-off
+  rotate: false
+  xy: 24, 44
+  size: 16, 16
+  orig: 20, 20
+  offset: 1, 2
+  index: -1
+check-on
+  rotate: false
+  xy: 41, 44
+  size: 16, 16
+  orig: 20, 20
+  offset: 1, 2
+  index: -1
+cursor
+  rotate: false
+  xy: 9, 6
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+frame
+  rotate: false
+  xy: 91, 57
+  size: 3, 3
+  split: 1, 1, 1, 1
+  orig: 3, 3
+  offset: 0, 0
+  index: -1
+hack
+  rotate: false
+  xy: 1, 61
+  size: 126, 66
+  orig: 128, 128
+  offset: 0, 62
+  index: -1
+progress-background
+  rotate: false
+  xy: 69, 42
+  size: 7, 18
+  split: 3, 3, 0, 18
+  orig: 7, 18
+  offset: 0, 0
+  index: -1
+progress-background-vertical
+  rotate: false
+  xy: 1, 9
+  size: 18, 7
+  split: 0, 18, 3, 3
+  orig: 18, 7
+  offset: 0, 0
+  index: -1
+progress-knob
+  rotate: false
+  xy: 22, 19
+  size: 1, 18
+  split: 0, 0, 0, 18
+  orig: 1, 18
+  offset: 0, 0
+  index: -1
+progress-knob-vertical
+  rotate: false
+  xy: 24, 42
+  size: 18, 1
+  split: 0, 18, 0, 0
+  orig: 18, 1
+  offset: 0, 0
+  index: -1
+select
+  rotate: false
+  xy: 1, 38
+  size: 22, 22
+  split: 19, 2, 0, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+tip
+  rotate: false
+  xy: 58, 42
+  size: 10, 18
+  orig: 20, 20
+  offset: 5, 1
+  index: -1
+tree-minus
+  rotate: false
+  xy: 1, 1
+  size: 7, 7
+  orig: 20, 20
+  offset: 7, 5
+  index: -1
+tree-plus
+  rotate: false
+  xy: 24, 32
+  size: 6, 9
+  orig: 20, 20
+  offset: 8, 6
+  index: -1
+warn
+  rotate: false
+  xy: 77, 42
+  size: 7, 18
+  orig: 20, 20
+  offset: 6, 1
+  index: -1
+white
+  rotate: false
+  xy: 1, 17
+  size: 20, 20
+  split: 3, 3, 3, 3
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 85, 34
+  size: 5, 26
+  split: 2, 2, 23, 2
+  orig: 5, 26
+  offset: 0, 0
+  index: -1
