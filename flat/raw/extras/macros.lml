@@ -1,0 +1,25 @@
+<!-- Creates a new text button with customized paddings. Assumes "close" is a no-op action:
+    unless another method is provided with "onChange" attribute, "close" will be invoked each
+    time a non-disabled button is pressed. -->
+<:macro alias="button" replace="content" padTop="4" padBottom="4" padLeft="8" padRight="8" onChange="close" id="null" style="default">
+  <textButton id="{id}" style="{style}" onChange="{onChange}" tablePadTop="{padTop}" tablePadBottom="{padBottom}" tablePadLeft="{padLeft}" tablePadRight="{padRight}">{content}</textButton>
+</:macro>
+<!-- Typical usage:
+  <:button>Click me!</:button>
+  <:button id="custom" onChange="customAction">Custom</:button>
+  <:button style="toggle">Toggle</:button>
+-->
+
+<!-- Create a new window with default style and custom top padding (draggable area). -->
+<:macro alias="window" replace="content" padTop="24" id="null" title="" oneColumn="false" titleAlign="center">
+  <window id="{id}" title="{title}" tablePadTop="{padTop}" oneColumn="{oneColumn}" titleAlign="{titleAlign}">
+    {content}
+  </window>
+</:macro>
+
+<!-- Typical usage:
+  <:window id="main" title="@title" oneColumn="true">
+    <table>My custom view.</table>
+    ...
+  </:window>
+-->
