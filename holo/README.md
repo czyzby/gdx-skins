@@ -1,6 +1,6 @@
 # Holo skin
 
-Inspired by Android UI. Features styles of most of **Scene2D** actors. Comes in two themes (light and dark) and four sizes, giving you ***8*** skins to choose from. Raw assets (PNGs) are included.
+Inspired by Android UI. Features styles of most of the **Scene2D** actors. Comes in two themes (light and dark) and four sizes, giving you ***eight*** skins to choose from. Raw assets (PNGs) are included.
 
 ![Holo](preview.png)
 

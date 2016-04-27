@@ -8,11 +8,11 @@ This repository contains *something*. (Actually, a few somethings.)
 
 ### Free assets
 
-You've probably stumbled upon the [default LibGDX skin](default), which seems to be used to test *Scene2D* capabilities. It's alright, if you want to test things out - but by the time you're making an actual LibGDX application, you're probably better off with something less *programmer-art*-ish.
+You've probably stumbled upon the [default LibGDX skin](default), which was originally created to test *Scene2D* API in the official LibGDX repository. It's alright, if you want to test things out - but by the time you're making an actual LibGDX application, you're probably better off with something less *programmer-art*-ish.
 
-This repository collects free skins contributed by various users at some point, in some place. The author thought that it would be a good idea to keep this kind of stuff in one place - and *not* sharing these assets would be pretty selfish.
+This repository collects free skins contributed by various users at some point. The author thought that it would be a good idea to keep this kind of stuff in one place - and *not* sharing these assets would be pretty selfish, so this *one place* turned out to be a public GitHub repository.
 
-So here there are: you're free to check out and use some of the free skins created and uploaded by nice people. Some of them might be a nice base for your custom skin, if you don't like starting from scratch. Hell, most can be used as they are.
+So here there are: you're free to check out and use some of the free skins created and uploaded by nice people. Some of them might be a helpful base for your custom skin, if you don't like starting from scratch. Hell, most can be used as they are.
 
 Note that the maintainer of this repository does **NOT** plan to track every single skin out there and post updates as soon as they are available. Most `README` files include links to the sources - if you're interested in a particular skin, make sure you're using up-to-date assets by yourself. This repository includes skin files for two reasons: original uploads might expire (or be moved) and it's very convenient to download them all at once to try each one out.
 

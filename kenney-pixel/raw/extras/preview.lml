@@ -1,0 +1,62 @@
+<!-- Try parsing this template in gdx-lml-tests project after replacing
+    the original skin. This template was used to generate the previews. -->
+<window title=Example oneColumn=true>
+  <table defaultPad=4>
+    Label
+    <button size=48 />
+    <button checked=true style=toggle size=48 />
+    <imageButton />
+    <imageTextButton>CLOSE</imageTextButton>
+  </table>
+  <table defaultPad=4>
+    <textButton>Text button</textButton>
+    <textButton style=toggle checked=true>Checked</textButton>
+    <textButton style=text>Text only</textButton>
+    <textButton style=textToggle checked=true>Text only checked</textButton>
+  </table>
+  <table defaultPad=4>
+    <checkBox>Check box</checkBox>
+    <checkBox checked=true>Checked</checkBox>
+    <checkBox style=square checked=true>Square</checkBox>
+    <checkBox style=radio checked=true>Radio</checkBox>
+  </table>
+  <table defaultPad=4>
+    <scrollPane style=background fadeBars=false size=80>
+      <list selected=0>
+        <:loop times=7>
+          list{loop:index}
+        </:loop>
+      </list>
+    </scrollPane>
+    <splitPane split=0.4>
+      <table pad=4>
+        <selectBox selected=1>
+          This is my
+          Select box
+        </selectBox>
+      </table>
+      <table pad=4>
+        <textField>Awaiting input...</textField>
+      </table>
+    </splitPane>
+  </table>
+  <table defaultPad=4>
+    <progressBar value=0.3 />
+    <progressBar vertical=true value=0.3 height=40 />
+    <slider value=0.5 />
+    <slider vertical=true value=0.5 height=40 />
+  </table>
+  <table defaultPad=4>
+    <touchpad size=50 />
+    <tree>
+      <label node=true text="Example">
+        This
+        is
+        a
+        <label text="tree" node=true>
+          Child
+        </label>
+      </label>
+    </tree>
+  </table>
+</window>
