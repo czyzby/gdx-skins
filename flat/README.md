@@ -41,6 +41,7 @@ Basically, this is *the ultimate prototyping skin*.
 ### Notes
 
 - All default **Scene2D** actors are supported.
+- This will **NOT** work on the Android by default, as Android does not support classpath fonts loading. If you target Android, copy `arial-15.fnt` and `arial-15.png` from `com.badlogic.gdx.utils` package (in the main LibGDX jar) to `com/badlogic/gdx/utils` folder in your `assets` directory.
 - Being a simple skin, it features only ***14*** images. By modifying even a single drawable, you're likely to affect multiple widgets.
 - This skin aims to limit nine-patch usage. Only 3 images are nine-patches: select box background and 2 alternative window backgrounds. While it should make rendering faster (which is not significant, unless you draw thousands of buttons), it does require you to set some paddings manually. In particular, you might want to use `#pad(float)` method on text buttons and `#padTop(float)` on windows with default styles. It was a conscious decision: rather than forcing a particular padding, you're free to customize your core widgets however you like.
 - Additional GUI icons are not provided. However, you can use the [raw assets](raw) to add your custom icons and repack the atlas.
