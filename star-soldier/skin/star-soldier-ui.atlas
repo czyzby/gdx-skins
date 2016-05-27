@@ -1,0 +1,276 @@
+
+star-soldier-ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 1, 21
+  size: 75, 57
+  split: 33, 34, 25, 24
+  pad: 33, 34, 22, 21
+  orig: 75, 57
+  offset: 0, 0
+  index: -1
+button-selected
+  rotate: false
+  xy: 188, 95
+  size: 75, 57
+  split: 33, 34, 25, 24
+  pad: 33, 34, 22, 21
+  orig: 75, 57
+  offset: 0, 0
+  index: -1
+button-slim
+  rotate: false
+  xy: 314, 165
+  size: 30, 30
+  split: 11, 11, 11, 11
+  pad: 11, 11, 8, 8
+  orig: 30, 30
+  offset: 0, 0
+  index: -1
+check
+  rotate: false
+  xy: 681, 925
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+check-off
+  rotate: false
+  xy: 705, 949
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 24, 17
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 550, 835
+  size: 129, 130
+  orig: 129, 130
+  offset: 0, 0
+  index: -1
+font-title-export
+  rotate: false
+  xy: 1, 463
+  size: 547, 560
+  orig: 547, 560
+  offset: 0, 0
+  index: -1
+left-arrow
+  rotate: false
+  xy: 265, 115
+  size: 19, 37
+  orig: 19, 37
+  offset: 0, 0
+  index: -1
+left-arrow-down
+  rotate: false
+  xy: 621, 796
+  size: 19, 37
+  orig: 19, 37
+  offset: 0, 0
+  index: -1
+list
+  rotate: false
+  xy: 772, 991
+  size: 69, 32
+  split: 7, 7, 2, 7
+  pad: 9, 9, 4, 9
+  orig: 69, 32
+  offset: 0, 0
+  index: -1
+minus
+  rotate: false
+  xy: 78, 37
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+plus
+  rotate: false
+  xy: 102, 62
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+progress-bar
+  rotate: false
+  xy: 550, 694
+  size: 1, 50
+  split: 0, 0, 5, 3
+  pad: 0, 0, 0, 0
+  orig: 1, 50
+  offset: 0, 0
+  index: -1
+progress-bar-back
+  rotate: false
+  xy: 1, 80
+  size: 185, 72
+  split: 87, 86, 12, 11
+  pad: 5, 5, 11, 11
+  orig: 185, 72
+  offset: 0, 0
+  index: -1
+radio
+  rotate: false
+  xy: 843, 1006
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+radio-off
+  rotate: false
+  xy: 346, 178
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+right-arrow
+  rotate: false
+  xy: 550, 746
+  size: 19, 37
+  orig: 19, 37
+  offset: 0, 0
+  index: -1
+right-arrow-down
+  rotate: false
+  xy: 510, 389
+  size: 19, 37
+  orig: 19, 37
+  offset: 0, 0
+  index: -1
+scrollbar-h
+  rotate: false
+  xy: 772, 968
+  size: 19, 21
+  split: 5, 4, 4, 4
+  pad: 0, 0, 0, 0
+  orig: 19, 21
+  offset: 0, 0
+  index: -1
+scrollbar-v
+  rotate: false
+  xy: 1, 1
+  size: 21, 18
+  split: 4, 4, 4, 2
+  pad: 0, 1, 0, 0
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+select-box
+  rotate: false
+  xy: 550, 785
+  size: 69, 48
+  split: 11, 37, 11, 34
+  pad: 11, 44, 8, 3
+  orig: 69, 48
+  offset: 0, 0
+  index: -1
+selection
+  rotate: false
+  xy: 286, 151
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+slider
+  rotate: false
+  xy: 265, 100
+  size: 1, 13
+  split: 0, 0, 0, 0
+  orig: 1, 13
+  offset: 0, 0
+  index: -1
+slider-back
+  rotate: false
+  xy: 78, 55
+  size: 22, 23
+  split: 8, 8, 7, 8
+  pad: 5, 2, 5, 5
+  orig: 22, 23
+  offset: 0, 0
+  index: -1
+slider-knob
+  rotate: false
+  xy: 681, 943
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+slider-v
+  rotate: false
+  xy: 188, 92
+  size: 13, 1
+  split: 0, 0, 0, 0
+  orig: 13, 1
+  offset: 0, 0
+  index: -1
+soldier
+  rotate: false
+  xy: 314, 197
+  size: 194, 264
+  orig: 194, 264
+  offset: 0, 0
+  index: -1
+splitpane-h
+  rotate: false
+  xy: 314, 159
+  size: 4, 4
+  split: 1, 1, 1, 1
+  pad: 1, 1, 0, 0
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+splitpane-v
+  rotate: false
+  xy: 536, 457
+  size: 4, 4
+  split: 1, 1, 1, 1
+  pad: 0, 0, 1, 1
+  orig: 4, 4
+  offset: 0, 0
+  index: -1
+textfield
+  rotate: false
+  xy: 510, 428
+  size: 24, 33
+  split: 6, 16, 7, 14
+  pad: 6, 10, 9, 8
+  orig: 24, 33
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 571, 782
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 550, 967
+  size: 220, 56
+  split: 78, 76, 41, 4
+  pad: 11, 9, 35, 4
+  orig: 220, 56
+  offset: 0, 0
+  index: -1
+window-special
+  rotate: false
+  xy: 1, 154
+  size: 311, 307
+  split: 157, 153, 158, 148
+  pad: 23, 21, 23, 22
+  orig: 311, 307
+  offset: 0, 0
+  index: -1
