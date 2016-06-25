@@ -1,0 +1,737 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	font-shortcut: {
+		file: font-shortcut-export.fnt
+	}
+	font-title: {
+		file: font-title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	bleached_peach: {
+		r: 0.9372549
+		g: 0.8980392
+		b: 0.8627451
+		a: 1
+	}
+	blue: {
+		r: 0
+		g: 0
+		b: 0.93333334
+		a: 1
+	}
+	dark_gray: {
+		r: 0.3019608
+		g: 0.3019608
+		b: 0.3019608
+		a: 1
+	}
+	gray: {
+		r: 0.42745098
+		g: 0.3647059
+		b: 0.3019608
+		a: 1
+	}
+	Highlight: {
+		r: 0.9
+		g: 0.786
+		b: 0.786
+		a: 1
+	}
+	light_gray: {
+		r: 0.61960787
+		g: 0.5411765
+		b: 0.44313726
+		a: 1
+	}
+	maroon: {
+		r: 0.290196
+		g: 0.215686
+		b: 0.24313726
+		a: 1
+	}
+	orange: {
+		r: 0.5294
+		g: 0.5294
+		b: 0.5294
+		a: 1
+	}
+	peach: {
+		r: 0.38039216
+		g: 0.33333334
+		b: 0.3019608
+		a: 1
+	}
+	purple: {
+		r: 0.33333334
+		g: 0.101960786
+		b: 0.54509807
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	color: {
+		up: button-color
+		down: button-color-down
+		over: button-color-hover
+	}
+	toggle: {
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		checked: button-orange-down
+		checkedOver: button-orange-down-over
+	}
+	spinner-plus: {
+		up: spinner-plus
+		down: spinner-plus-down
+		over: spinner-plus-over
+	}
+	maroon: {
+		up: button-maroon
+		down: button-maroon-down
+	}
+	maroon-toggle: {
+		up: button-maroon
+		down: button-maroon-down
+		checked: button-maroon-down
+	}
+	close-alt: {
+		up: close-button-alt
+		down: close-button-alt-down
+		over: close-button-alt-highlight
+	}
+	close: {
+		up: close-button
+		down: close-button-down
+		over: close-button-highlight
+	}
+	spinner-minus: {
+		up: spinner-minus
+		down: spinner-minus-down
+		over: spinner-minus-over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: check-box
+		checkboxOff: check-box-off
+		font: font
+		fontColor: orange
+		overFontColor: maroon
+	}
+	switch-text: {
+		checkboxOn: switch-text
+		checkboxOff: switch-text-off
+		font: font
+		fontColor: orange
+		overFontColor: maroon
+	}
+	switch: {
+		checkboxOn: switch
+		checkboxOff: switch-off
+		font: font
+		fontColor: orange
+		overFontColor: maroon
+	}
+	radio: {
+		checkboxOn: radio-button
+		checkboxOff: radio-button-off
+		font: font
+		fontColor: orange
+		overFontColor: maroon
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	settings: {
+		imageUp: image-settings
+		imageDown: image-settings-down
+		imageDisabled: image-settings-disabled
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	orange-small: {
+		up: round-orange
+		down: round-dark-orange
+		over: round-orange-over
+	}
+	music: {
+		imageUp: image-music-off
+		imageDown: image-music-down
+		imageChecked: image-music
+		imageDisabled: image-music-disabled
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	help: {
+		imageUp: image-help
+		imageDown: image-help-down
+		imageDisabled: image-help-disabled
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	menu-up: {
+		up: menu-up
+		down: menu-down-up
+		over: menu-up-over
+		disabled: menu-disabled-up
+	}
+	left: {
+		imageUp: image-left
+		imageDown: image-left-down
+		imageDisabled: image-left-disabled
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	menu-right: {
+		up: menu-right
+		down: menu-down-right
+		over: menu-right-over
+		disabled: menu-disabled-right
+	}
+	menu-down: {
+		up: menu-down
+		down: menu-down-down
+		over: menu-down-over
+		disabled: menu-disabled-down
+	}
+	menu-middle: {
+		up: menu-middle
+		down: menu-down-middle
+		over: menu-middle-over
+		disabled: menu-disabled-middle
+	}
+	sound: {
+		imageUp: image-sound-off
+		imageDown: image-sound-down
+		imageChecked: image-sound
+		imageDisabled: image-sound-disabled
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	menu-left: {
+		up: menu-left
+		down: menu-down-left
+		over: menu-left-over
+		disabled: menu-disabled-left
+	}
+	info: {
+		imageUp: image-info
+		imageDown: image-info-down
+		imageDisabled: image-info-disabled
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	right: {
+		imageUp: image-right
+		imageDown: image-right-down
+		imageDisabled: image-right-disabled
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	menu-center: {
+		up: menu-center
+		down: menu-down-center
+		over: menu-center-over
+		disabled: menu-disabled-center
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		font: font
+		fontColor: white
+		downFontColor: maroon
+		disabledFontColor: dark_gray
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: orange
+	}
+	optional: {
+		font: font
+		fontColor: bleached_peach
+	}
+	error: {
+		font: font
+		fontColor: maroon
+	}
+	white: {
+		font: font
+		fontColor: white
+	}
+	peach: {
+		font: font
+		fontColor: peach
+	}
+	title-white: {
+		font: font-title
+		fontColor: white
+	}
+	title: {
+		font: font-title
+		fontColor: orange
+	}
+	shortcut: {
+		font: font-shortcut
+		fontColor: bleached_peach
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: font
+		fontColorSelected: white
+		fontColorUnselected: white
+		selection: maroon
+	}
+	dimmed: {
+		font: font
+		fontColorSelected: white
+		fontColorUnselected: maroon
+		selection: maroon
+		background: peach
+	}
+	alt: {
+		font: font
+		fontColorSelected: white
+		fontColorUnselected: maroon
+		selection: orange
+		background: bleached-peach
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar
+		knobBefore: progress-bar-before-knob
+	}
+	default-vertical: {
+		background: progress-bar-vertical
+		knobBefore: progress-bar-vertical-before-knob
+	}
+	default: {
+		background: progress-bar
+		knobBefore: progress-bar-before-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: dim-orange
+		hScroll: scrollbar
+		hScrollKnob: scrollbar-knob
+		vScroll: scrollbar-vertical
+		vScrollKnob: scrollbar-knob
+	}
+	android: {
+		background: dim-orange
+		hScroll: scrollbar-android
+		hScrollKnob: scrollbar-android-knob
+		vScroll: scrollbar-android-vertical
+		vScrollKnob: scrollbar-android-vertical-knob
+	}
+	no-bg: {
+		hScroll: scrollbar
+		hScrollKnob: scrollbar-knob
+		vScroll: scrollbar-vertical
+		vScrollKnob: scrollbar-knob
+	}
+	android-no-bg: {
+		hScroll: scrollbar-android
+		hScrollKnob: scrollbar-android-knob
+		vScroll: scrollbar-android-vertical
+		vScrollKnob: scrollbar-android-vertical-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: font
+		fontColor: white
+		background: select-box
+		scrollStyle: default
+		listStyle: default
+		backgroundOver: select-box-over
+		backgroundOpen: select-box-down
+	}
+	dimmed: {
+		font: font
+		fontColor: white
+		background: select-box
+		scrollStyle: default
+		listStyle: dimmed
+		backgroundOver: select-box-over
+		backgroundOpen: select-box-down
+	}
+	alt: {
+		font: font
+		fontColor: white
+		background: select-box
+		scrollStyle: default
+		listStyle: alt
+		backgroundOver: select-box-over
+		backgroundOpen: select-box-down
+	}
+	slim-dimmed: {
+		font: font
+		fontColor: white
+		background: select-box-slim
+		scrollStyle: default
+		listStyle: dimmed
+		backgroundOver: select-box-slim-over
+		backgroundOpen: select-box-slim-down
+	}
+	slim-alt: {
+		font: font
+		fontColor: white
+		background: select-box-slim
+		scrollStyle: default
+		listStyle: alt
+		backgroundOver: select-box-slim-over
+		backgroundOpen: select-box-slim-down
+	}
+	slim: {
+		font: font
+		fontColor: white
+		background: select-box-slim
+		scrollStyle: default
+		listStyle: default
+		backgroundOver: select-box-slim-over
+		backgroundOpen: select-box-slim-down
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: scrollbar-android
+		knob: slider-bar-knob
+		knobBefore: scrollbar-android-knob
+	}
+	default-vertical: {
+		background: scrollbar-android-vertical
+		knob: slider-bar-knob
+		knobBefore: scrollbar-android-vertical-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: splitpane
+	}
+	default-vertical: {
+		handle: splitpane
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font
+		fontColor: white
+		downFontColor: maroon
+		disabledFontColor: dark_gray
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		disabled: button-gray
+	}
+	menu-item: {
+		font: font
+		fontColor: white
+		downFontColor: Highlight
+		overFontColor: Highlight
+		disabledFontColor: gray
+		up: menu-button-dark-orange
+		down: menu-button-orange
+	}
+	orange-small: {
+		font: font
+		fontColor: white
+		downFontColor: maroon
+		up: round-orange
+		down: round-dark-orange
+		over: round-orange-over
+	}
+	maroon-small: {
+		font: font
+		fontColor: white
+		downFontColor: orange
+		up: round-maroon
+		down: round-dark-maroon
+	}
+	maroon: {
+		font: font
+		fontColor: white
+		downFontColor: orange
+		up: button-maroon
+		down: button-maroon-down
+	}
+	maroon-toggle: {
+		font: font
+		fontColor: white
+		downFontColor: orange
+		checkedFontColor: orange
+		up: button-maroon
+		down: button-maroon-down
+		checked: button-maroon-down
+	}
+	toggle: {
+		font: font
+		fontColor: white
+		downFontColor: maroon
+		up: button-orange
+		down: button-orange-down
+		over: button-orange-over
+		checked: button-orange-down
+		checkedOver: button-orange-down-over
+	}
+	maroon-small-toggle: {
+		font: font
+		fontColor: white
+		downFontColor: orange
+		checkedFontColor: orange
+		up: round-maroon
+		down: round-dark-maroon
+		checked: round-dark-maroon
+	}
+	orange-small-toggle: {
+		font: font
+		fontColor: white
+		downFontColor: maroon
+		checkedFontColor: maroon
+		up: round-orange
+		down: round-dark-orange
+		over: round-orange-over
+		checked: round-dark-orange
+		checkedOver: round-dark-orange-over
+	}
+	link: {
+		font: font
+		fontColor: blue
+		downFontColor: purple
+	}
+	menu-item-maroon: {
+		font: font
+		fontColor: orange
+		downFontColor: white
+		overFontColor: white
+		disabledFontColor: gray
+		up: menu-button-dark-maroon
+		down: menu-button-maroon
+	}
+	menu-maroon: {
+		font: font
+		fontColor: white
+		downFontColor: orange
+		checkedFontColor: orange
+		disabledFontColor: gray
+		up: menu-button-maroon
+		down: menu-button-dark-maroon
+		checked: menu-button-dark-maroon
+	}
+	menu: {
+		font: font
+		fontColor: white
+		downFontColor: Highlight
+		checkedFontColor: Highlight
+		disabledFontColor: gray
+		up: menu-button-orange
+		down: menu-button-dark-orange
+		over: menu-button-orange-over
+		checked: menu-button-dark-orange
+		checkedOver: menu-button-dark-orange-over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: maroon
+		disabledFontColor: dark_gray
+		background: textfield
+		focusedBackground: textfield-down
+		disabledBackground: textfield-disabled
+		cursor: maroon
+		selection: orange
+		messageFont: font
+		messageFontColor: bleached_peach
+	}
+	alt: {
+		font: font
+		fontColor: maroon
+		background: textfield-disabled-alt
+	}
+	search: {
+		font: font
+		fontColor: maroon
+		disabledFontColor: dark_gray
+		background: textfield-search
+		focusedBackground: textfield-search-down
+		disabledBackground: textfield-search-disabled
+		cursor: maroon
+		selection: orange
+		messageFont: font
+		messageFontColor: bleached_peach
+	}
+	login: {
+		font: font
+		fontColor: maroon
+		disabledFontColor: dark_gray
+		background: textfield-login
+		focusedBackground: textfield-login-down
+		disabledBackground: textfield-login-disabled
+		cursor: maroon
+		selection: orange
+		messageFont: font
+		messageFontColor: bleached_peach
+	}
+	spinner: {
+		font: font
+		fontColor: maroon
+		disabledFontColor: dark_gray
+		background: spinner-text-field
+		focusedBackground: spinner-text-field-down
+		disabledBackground: textfield-disabled
+		cursor: maroon
+		selection: orange
+		messageFont: font
+		messageFontColor: bleached_peach
+	}
+	password: {
+		font: font
+		fontColor: maroon
+		disabledFontColor: dark_gray
+		background: textfield-password
+		focusedBackground: textfield-password-down
+		disabledBackground: textfield-password-disabled
+		cursor: maroon
+		selection: orange
+		messageFont: font
+		messageFontColor: bleached_peach
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+		background: round-dark-gray
+		wrapWidth: 150
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: touchpad
+		knob: touchpad-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: plus
+		minus: minus
+		selection: round-maroon
+	}
+	folder: {
+		plus: folder
+		minus: folder-open
+		selection: round-maroon
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window-orange
+		titleFont: font
+		titleFontColor: white
+	}
+	dialog-panel-peach: {
+		background: panel-peach
+		titleFont: font
+		titleFontColor: dark_gray
+		stageBackground: bleached-peach
+	}
+	panel: {
+		background: panel-orange
+		titleFont: font
+		titleFontColor: dark_gray
+	}
+	dialog: {
+		background: window-orange
+		titleFont: font
+		titleFontColor: white
+		stageBackground: bleached-peach
+	}
+	maroon: {
+		background: window-maroon
+		titleFont: font
+		titleFontColor: white
+	}
+	peach: {
+		background: window-peach
+		titleFont: font
+		titleFontColor: white
+	}
+	dialog-large: {
+		background: window-large
+		titleFont: font
+		titleFontColor: white
+		stageBackground: bleached-peach
+	}
+	panel-maroon: {
+		background: panel-maroon
+		titleFont: font
+		titleFontColor: dark_gray
+	}
+	panel-peach: {
+		background: panel-peach
+		titleFont: font
+		titleFontColor: dark_gray
+	}
+	large: {
+		background: window-large
+		titleFont: font
+		titleFontColor: white
+	}
+	dialog-panel-maroon: {
+		background: panel-maroon
+		titleFont: font
+		titleFontColor: dark_gray
+		stageBackground: bleached-peach
+	}
+	dialog-panel: {
+		background: panel-orange
+		titleFont: font
+		titleFontColor: dark_gray
+		stageBackground: bleached-peach
+	}
+}
+}

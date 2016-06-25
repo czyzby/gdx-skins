@@ -39,7 +39,7 @@ This is very convenient, as you can quickly try out different GUI themes without
 ### Notes
 
 - All default **Scene2D** actors are supported.
-- This will **NOT** work on the Android by default, as Android does not support classpath fonts loading. If you target Android, copy `arial-15.fnt` and `arial-15.png` from `com.badlogic.gdx.utils` package (in the main LibGDX jar) to `com/badlogic/gdx/utils` folder in your `assets` directory.
+- This will **NOT** work on the Android by default, as Android does not support classpath fonts loading. If you target Android, copy `arial-15.fnt` and `arial-15.png` from `com.badlogic.gdx.utils` package (in the main LibGDX jar) to `com/badlogic/gdx/utils` folder in your `assets` directory. Or - even better - add a custom font and replace the one in `skin.json`.
 - Additional GUI icons are not provided. However, you can use the [raw assets](raw) to add your custom icons and repack the atlas.
 - The assets were designed to be shown in pretty light palette. Keep in mind that if your theme colors are too dark, some details might be difficult to see. For example, it could be hard to determine if a check box is checked or not. If you really want a black(ish) skin, you can try "inverting" the colors of the original images: while they should all still be nearly white, keep the outlines *lighter* than the rest.
 - A custom font is **not** included. While the images scale very nicely, the default **LibGDX** font is **not** pixel art and will not look so crispy when scaled up. Providing a custom font should be the first thing you'd generally want to do.
