@@ -8,6 +8,10 @@ Supports most of the **Scene2D** widgets (including the newest tooltips), with n
 
 ![Default](preview.png)
 
+Preview taken from [LibGDX skins](https://github.com/libgdx/libgdx-skins):
+
+![Default](preview-large.png)
+
 ### License
 
 Seems to be the same as the whole **LibGDX** framework. But then again - in commercial products, you might want to try out something fancier.

@@ -6,6 +6,8 @@ One could argue that it's the right approach, as it keeps framework's core `jar`
 
 This repository contains *something*. (Actually, a few somethings.)
 
+#### [**DOWNLOAD. ALL OF THEM.**](https://github.com/czyzby/gdx-skins/archive/master.zip)
+
 ### Free assets
 
 You've probably stumbled upon the [default LibGDX skin](default), which was originally created to test *Scene2D* API in the official LibGDX repository. It's alright, if you want to test things out - but by the time you're making an actual LibGDX application, you're probably better off with something less *programmer-art*-ish.
@@ -22,7 +24,7 @@ Using some skin found in the web is one thing, but customizing it - or creating 
 
 - [Official Scene2D article](https://github.com/libgdx/libgdx/wiki/Scene2d). [Scene2D UI](https://github.com/libgdx/libgdx/wiki/Scene2d.ui) and [`Table`](https://github.com/libgdx/libgdx/wiki/Table) pages are worth your time as well.
 - [Official `Skin` article](https://github.com/libgdx/libgdx/wiki/Skin).
-- [Official texture packer](https://github.com/libgdx/libgdx/wiki/Texture-packer) and [Hiero tool](https://github.com/libgdx/libgdx/wiki/Hiero) articles, both of which are useful when preparing `Skin` assets. **Do not use [graphical texture packer](https://code.google.com/archive/p/libgdx-texturepacker-gui/)**, unless dealing with legacy LibGDX version: it doesn't seem to be up-to-date and **can produce corrupt atlases**. You're much better off setting up a Gradle task using the latest `gdx-tools` to pack your atlases (see official texture packer article for more info how to do this).
+- [Official texture packer](https://github.com/libgdx/libgdx/wiki/Texture-packer) and [Hiero tool](https://github.com/libgdx/libgdx/wiki/Hiero) articles, both of which are useful when preparing `Skin` assets. **Do NOT use [graphical texture packer](https://code.google.com/archive/p/libgdx-texturepacker-gui/)**, unless dealing with legacy LibGDX version: it doesn't seem to be up-to-date and **can produce corrupt atlases**. You're much better off setting up a Gradle task using the latest `gdx-tools` to pack your atlases (see official texture packer article for more info how to do this).
 - [Skin Composer](https://github.com/raeleus/skin-composer) is a graphical application that allows you to create and edit custom `Scene2D` skins. Created by [Raeleus](https://ray3k.wordpress.com/software/skin-composer-for-libgdx/).
 - [gdx-skineditor](https://github.com/cobolfoo/gdx-skineditor) is an application that allows you to create custom skins. While it doesn't seem to be currently maintained (and is able to crash from time to time), it might still prove useful. Keep in mind that it's still worth to understand skin's *JSON* internals before using this tool.
 - [VisUI library](https://github.com/kotcrab/vis-editor/wiki/VisUI) extends *Scene2D* with custom widgets and some default skins. Even if you don't like its flat design theme, consider including this library for its new useful actors.
@@ -32,6 +34,7 @@ Using some skin found in the web is one thing, but customizing it - or creating 
 - [Pimentoso Software blog](http://pimentoso.blogspot.com/2013/04/libgdx-scene2d-skin-quick-tutorial.html) contains a simple *Scene2D* tutorial.
 - [This thread](http://www.badlogicgames.com/forum/viewtopic.php?f=17&t=15209) includes *JSON* highlighter for *IntelliJ/Android Studio* IDEs. No more red spots in your skin files!
 - [This thread](http://www.badlogicgames.com/forum/viewtopic.php?f=17&t=22075) contains `TiledNinePatchDrawable`, which might be necessary for some GUIs.
+- Apparently, LibGDX team decided to maintain their own [similar community-driven project](https://github.com/libgdx/libgdx-skins) (finally!). It currently contains far less skins, but allows to download them individually and features a live preview. If you want to contribute a new skin here, I strongly suggest you also create a pull request to the official `libgdx-skins` project. 
 
 ## Contributing
 
