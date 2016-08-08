@@ -1,0 +1,242 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	title: {
+		file: font-title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	orange: {
+		r: 0.91
+		g: 0.7078283
+		b: 0
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+	yellow: {
+		r: 1
+		g: 0.8980392
+		b: 0.4
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	red: {
+		name: white
+		color: {
+			r: 0.66666675
+			g: 0.07555556
+			b: 0.07555556
+			a: 1
+		}
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: checkbox-on
+		checkboxOff: checkbox-off
+		checkboxOver: checkbox-off-over
+		font: font
+		fontColor: yellow
+		overFontColor: orange
+	}
+	radio: {
+		checkboxOn: radio-on
+		checkboxOff: radio-off
+		checkboxOver: radio-off-over
+		font: font
+		fontColor: yellow
+		overFontColor: orange
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		imageUp: button
+		imageDown: button-pressed
+		imageOver: button-over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		font: font
+		fontColor: yellow
+		overFontColor: orange
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+	checkbox: {
+		imageUp: checkbox-off
+		imageDown: checkbox-off-pressed
+		imageOver: checkbox-off-over
+		imageChecked: checkbox-on
+		imageCheckedOver: checkbox-on-over
+		font: font
+		fontColor: yellow
+		overFontColor: orange
+	}
+	radio: {
+		imageUp: radio-off
+		imageDown: radio-off-pressed
+		imageOver: radio-off-over
+		imageChecked: radio-on
+		imageCheckedOver: radio-on-over
+		font: font
+		fontColor: yellow
+		overFontColor: orange
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: yellow
+	}
+	title: {
+		font: title
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: font
+		fontColorSelected: white
+		fontColorUnselected: yellow
+		selection: red
+		background: list
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar
+		knobBefore: progress-bar-life
+	}
+	default-vertical: {
+		background: progress-bar-v
+		knobBefore: progress-bar-lfe-v
+	}
+	mana: {
+		background: progress-bar
+		knobBefore: progress-bar-mana
+	}
+	mana-vertical: {
+		background: progress-bar-v
+		knobBefore: progress-bar-mana-v
+	}
+	health-orb: {
+		background: health-orb
+		knobBefore: health-orb-fill
+	}
+	mana-orb: {
+		background: mana-orb
+		knobBefore: mana-orb-fill
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		hScrollKnob: scrollbar-horizontal
+		vScrollKnob: scrollbar-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: font
+		fontColor: yellow
+		background: select-box
+		scrollStyle: default
+		listStyle: default
+		backgroundOver: select-box-highlighted
+		backgroundOpen: select-box-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		knobOver: slider-knob-over
+		knobDown: slider-knob-over
+		background: slider
+		knob: slider-knob
+	}
+	default-vertical: {
+		knobOver: slider-knob-over
+		knobDown: slider-knob-over
+		background: slider
+		knob: slider-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: split-pane-horizontal
+	}
+	default-vertical: {
+		handle: split-pane-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font
+		fontColor: yellow
+		overFontColor: orange
+		up: button
+		down: button-pressed
+		over: button-over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: yellow
+		focusedFontColor: orange
+		background: textfield
+		cursor: cursor-primed
+		selection: red
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+		background: textfield
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: touchpad
+		knob: slider-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: plus
+		minus: minus
+		selection: red
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window
+		titleFont: font
+		stageBackground: white
+	}
+	small: {
+		background: textfield
+		titleFont: font
+	}
+}
+}
