@@ -6,4 +6,4 @@ Includes a "power of two cursor" image !
 Includes also ImageButtons with different images ! 
 
 
-![medieval](/preview.PNG)
+![medieval](preview.PNG)
