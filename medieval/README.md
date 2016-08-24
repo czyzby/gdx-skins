@@ -6,4 +6,4 @@ Includes a power of two cursor image !
 
 
 
-![Medieval](preview.png)
+![medieval](preview.png)
