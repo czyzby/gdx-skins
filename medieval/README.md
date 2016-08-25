@@ -10,6 +10,10 @@ Great site ! Modern and good structured asset packs !
 I used RAY3K's skin composer ... https://ray3k.wordpress.com/software/skin-composer-for-libgdx/ 
 Great thing ! 
 ```
+
+![medieval](preview.PNG)
+
+
 ## Description
 
     Simple skin. Works for me ! 
@@ -21,4 +25,4 @@ Great thing !
     https://creativecommons.org/licenses/by/4.0/
 
 
-![medieval](preview.PNG)
+
