@@ -17,8 +17,10 @@ Great thing !
 ## Description
 
     Simple skin. Works for me ! 
-    Includes a "power of two cursor" image !
     Includes also ImageButtons with different images ! 
+    
+    Good advice : You can use the "gauntlet images" (included in raw directory)  and resize them to "power of two" 
+    (16*16, 32*32....) and use them as cursor ! 
 
 ## License
 
