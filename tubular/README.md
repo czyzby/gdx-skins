@@ -18,4 +18,4 @@ Features styles of most common **Scene2D** widgets. Mimics YouTube GUI.
 You can find an example project [here](https://ray3k.wordpress.com/tubular-ui-skin-for-libgdx/).
 
 ### License
-[CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/). Give credit to [***Raymond "Raeleus" Buckley***](http://www.badlogicgames.com/forum/viewtopic.php?f=22&t=22887).
+[CC BY 4.0](http://creativecommons.org/licenses/by/4.0/). Give credit to [***Raymond "Raeleus" Buckley***](http://www.badlogicgames.com/forum/viewtopic.php?f=22&t=22887).
