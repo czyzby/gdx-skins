@@ -1,0 +1,777 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	america_med_cyrSuppp: {
+		file: america_med_cyrSuppp.fnt
+	}
+	prince: {
+		file: prince.fnt
+	}
+	roman_big: {
+		file: roman_big.fnt
+	}
+	roman_mini: {
+		file: roman_mini.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	RGBA_0_0_0_255: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: buttonlong_brown
+		down: buttonlong_brown_pressed
+		disabled: panelinset_brown_cut
+	}
+	beige: {
+		up: buttonlong_beige
+		down: buttonlong_beige_pressed
+		disabled: panelinset_beige_cut
+	}
+	grey: {
+		up: buttonlong_grey
+		down: buttonlong_grey_pressed
+		disabled: panelinset_beigelight_cut
+	}
+	blue: {
+		up: buttonlong_blue
+		down: buttonlong_blue_pressed
+	}
+	onechar: {
+		up: buttonSquare_brown
+		down: buttonSquare_brown_pressed
+	}
+	onechar_beige: {
+		up: buttonSquare_beige
+		down: buttonSquare_beige_pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: iconCheck_blue
+		checkboxOff: iconCross_blue
+		font: prince
+		fontColor: RGBA_0_0_0_255
+	}
+	bronze_items: {
+		checkboxOn: iconCheck_bronze
+		checkboxOff: iconCross_brown
+		font: prince
+		fontColor: RGBA_0_0_0_255
+	}
+	no_cross: {
+		checkboxOn: iconCheck_blue
+		checkboxOff: clear
+		font: prince
+		fontColor: RGBA_0_0_0_255
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		imageUp: clear
+		imageDown: clear
+		up: panelinset_brown_cut
+		down: panelinset_beige_cut
+	}
+	invert: {
+		up: panelinset_beige_cut
+		down: panelinset_brown_cut
+	}
+	onechar: {
+		up: buttonSquare_brown
+		down: buttonSquare_brown_pressed
+	}
+	onechar_beige: {
+		up: buttonSquare_beige
+		down: buttonSquare_beige_pressed
+	}
+	save: {
+		imageUp: save
+	}
+	sound: {
+		imageUp: audioOff
+		imageChecked: audioOn
+	}
+	sound_beige_bg: {
+		imageUp: audioOff
+		imageChecked: audioOn
+		up: buttonSquare_beige_pressed
+	}
+	multiplayer: {
+		imageUp: multiplayer
+	}
+	trash: {
+		imageUp: trashcan
+		imageOver: trashcanOpen
+	}
+	trash_bg: {
+		imageUp: trashcan
+		imageOver: trashcanOpen
+		up: buttonSquare_beige_pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+	}
+	big: {
+		font: roman_big
+		fontColor: RGBA_0_0_0_255
+	}
+	small: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+	}
+	medium: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+	}
+	medium_buttonised: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_brown_pressed
+	}
+	medium_wit_panel: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: panelinset_brown_cut
+	}
+	small_with_panel: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+		background: panelinset_brown_cut
+	}
+	big_with_panel: {
+		font: roman_big
+		fontColor: RGBA_0_0_0_255
+		background: panelinset_brown_cut
+	}
+	def_with_panel: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		background: panelinset_brown_cut
+	}
+	def_with_beige_panel: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		background: panelinset_beige_cut
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: prince
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: panelinset_beige_cut
+		background: panelinset_brown_cut
+	}
+	invert: {
+		font: prince
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: panelinset_brown_cut
+		background: panelinset_beige_cut
+	}
+	mini: {
+		font: roman_mini
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: panelinset_beige_cut
+		background: panelinset_brown_cut
+	}
+	mini_invert: {
+		font: roman_mini
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: panelinset_beige_cut
+		background: panelinset_brown_cut
+	}
+	medium: {
+		font: america_med_cyrSuppp
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: panelinset_beige_cut
+		background: panelinset_brown_cut
+	}
+	medium_invert: {
+		font: america_med_cyrSuppp
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: panelinset_brown_cut
+		background: panelinset_beige_cut
+	}
+	no_bg: {
+		font: prince
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: panelinset_beige_cut
+	}
+	no_bg_invert: {
+		font: prince
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: panelinset_brown_cut
+	}
+	med_no_bg: {
+		font: america_med_cyrSuppp
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: panelinset_beige_cut
+	}
+	medium_grey-blue: {
+		font: america_med_cyrSuppp
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: buttonlong_blue_pressed
+		background: buttonlong_grey_pressed
+	}
+	medium_blue-grey: {
+		font: america_med_cyrSuppp
+		fontColorSelected: RGBA_0_0_0_255
+		fontColorUnselected: RGBA_0_0_0_255
+		selection: buttonlong_grey_pressed
+		background: buttonlong_blue_pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: clear
+		knobBefore: barblue_horizontalleft
+		knobAfter: barback_horizontalright
+	}
+	default-vertical: {
+		background: clear
+		knobBefore: barblue_verticalbottom
+		knobAfter: barback_verticaltop
+	}
+	green-horizontal: {
+		background: clear
+		knobBefore: bargreen_horizontalleft
+		knobAfter: barback_horizontalright
+	}
+	green-vertical: {
+		background: clear
+		knobBefore: bargreen_verticalbottom
+		knobAfter: barback_verticaltop
+	}
+	red-horizontal: {
+		background: clear
+		knobBefore: barred_horizontalleft
+		knobAfter: barback_horizontalright
+	}
+	red-vertical: {
+		background: clear
+		knobBefore: barred_verticalbottom
+		knobAfter: barback_verticaltop
+	}
+	yellow_horizontal: {
+		background: clear
+		knobBefore: baryellow_horizontalleft
+		knobAfter: barback_horizontalright
+	}
+	yellow_vertical: {
+		background: clear
+		knobBefore: baryellow_verticalbottom
+		knobAfter: barback_verticaltop
+	}
+	blue_green_horizontal: {
+		background: clear
+		knobBefore: barblue_horizontalleft
+		knobAfter: bargreen_horizontalright
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		background: panelinset_beige_cut
+		hScroll: barback_horizontalright
+		hScrollKnob: barback_horizontalleft
+		vScroll: barback_verticalbottom
+		vScrollKnob: barback_verticaltop
+	}
+	no_bg: {
+		hScroll: barback_horizontalright
+		hScrollKnob: barback_horizontalleft
+		vScroll: barback_verticalbottom
+		vScrollKnob: barback_verticaltop
+	}
+	brown: {
+		background: panelinset_brown_cut
+		hScroll: barback_horizontalright
+		hScrollKnob: barback_horizontalleft
+		vScroll: barback_verticalbottom
+		vScrollKnob: barback_verticaltop
+	}
+	blue_scroll: {
+		background: panelinset_beige_cut
+		hScroll: barback_horizontalright
+		hScrollKnob: barblue_horizontalleft
+		vScroll: barback_verticalbottom
+		vScrollKnob: barblue_verticaltop
+	}
+	yellow_scroll: {
+		background: panelinset_beige_cut
+		hScroll: barback_horizontalright
+		hScrollKnob: baryellow_horizontalleft
+		vScroll: barback_verticalbottom
+		vScrollKnob: baryellow_verticaltop
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		disabledFontColor: RGBA_0_0_0_255
+		background: buttonlong_brown
+		scrollStyle: no_bg
+		listStyle: default
+		backgroundOpen: buttonlong_brown_pressed
+	}
+	inverted: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_brown
+		scrollStyle: no_bg
+		listStyle: invert
+		backgroundOpen: buttonlong_brown_pressed
+	}
+	transparent_button: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		background: barback_verticalbottom
+		scrollStyle: default
+		listStyle: default
+		backgroundOpen: barback_verticaltop
+	}
+	def_beige_button: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		disabledFontColor: RGBA_0_0_0_255
+		background: buttonlong_beige
+		scrollStyle: no_bg
+		listStyle: default
+		backgroundOpen: buttonlong_beige_pressed
+	}
+	med: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_brown
+		scrollStyle: brown
+		listStyle: medium
+		backgroundOpen: buttonlong_brown_pressed
+	}
+	big: {
+		font: roman_big
+		fontColor: RGBA_0_0_0_255
+		disabledFontColor: RGBA_0_0_0_255
+		background: buttonlong_brown
+		scrollStyle: no_bg
+		listStyle: default
+		backgroundOpen: buttonlong_brown_pressed
+	}
+	small: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+		disabledFontColor: RGBA_0_0_0_255
+		background: buttonlong_brown
+		scrollStyle: no_bg
+		listStyle: mini
+		backgroundOpen: buttonlong_brown_pressed
+	}
+	med_beige: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_beige
+		scrollStyle: brown
+		listStyle: medium
+		backgroundOpen: buttonlong_beige_pressed
+	}
+	med_transparent_buttonn: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: barback_verticalbottom
+		scrollStyle: default
+		listStyle: medium
+		backgroundOpen: barback_verticaltop
+	}
+	small_beige: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+		disabledFontColor: RGBA_0_0_0_255
+		background: buttonlong_beige
+		scrollStyle: no_bg
+		listStyle: mini
+		backgroundOpen: buttonlong_beige_pressed
+	}
+	med_blue: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_blue
+		scrollStyle: brown
+		listStyle: medium
+		backgroundOpen: buttonlong_blue_pressed
+	}
+	med_grey: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_grey
+		scrollStyle: brown
+		listStyle: medium
+		backgroundOpen: buttonlong_grey_pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: clear
+		knob: cursorHand_grey
+		knobBefore: barblue_horizontalleft
+		knobAfter: barback_horizontalright
+	}
+	default-vertical: {
+		background: clear
+		knob: cursorHand_grey
+		knobBefore: barblue_verticalbottom
+		knobAfter: barback_verticaltop
+	}
+	green-horizontal: {
+		background: clear
+		knob: cursorHand_grey
+		knobBefore: bargreen_horizontalleft
+		knobAfter: barback_horizontalright
+	}
+	green_vertical: {
+		background: clear
+		knob: cursorHand_grey
+		knobBefore: bargreen_verticalbottom
+		knobAfter: barback_verticaltop
+	}
+	red-horizontal: {
+		background: clear
+		knob: cursorHand_grey
+		knobBefore: barred_horizontalleft
+		knobAfter: barback_horizontalright
+	}
+	red-vertical: {
+		background: clear
+		knob: cursorHand_grey
+		knobBefore: barred_verticalbottom
+		knobAfter: barback_verticaltop
+	}
+	yellow-horizontal: {
+		background: clear
+		knob: cursorHand_grey
+		knobBefore: baryellow_horizontalleft
+		knobAfter: barback_horizontalright
+	}
+	yellow-vertical: {
+		background: clear
+		knob: cursorHand_grey
+		knobBefore: baryellow_verticalbottom
+		knobAfter: barback_verticaltop
+	}
+	red-sword-horizontal: {
+		background: clear
+		knob: cursorSword_bronze
+		knobBefore: barred_horizontalleft
+		knobAfter: barback_horizontalright
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: rpgTile162
+	}
+	default-vertical: {
+		handle: rpgTile1622
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_brown
+		down: buttonlong_brown_pressed
+	}
+	def_beige: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_beige
+		down: buttonlong_beige_pressed
+	}
+	med: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_brown
+		down: buttonlong_brown_pressed
+	}
+	med_beige: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_beige
+		down: buttonlong_beige_pressed
+	}
+	big: {
+		font: roman_big
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_brown
+		down: buttonlong_brown_pressed
+	}
+	big_beige: {
+		font: roman_big
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_beige
+		down: buttonlong_beige_pressed
+	}
+	def_grey: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_grey
+		down: buttonlong_grey_pressed
+	}
+	def_blue: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_blue
+		down: buttonlong_blue_pressed
+	}
+	med_grey: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_grey
+		down: buttonlong_grey_pressed
+	}
+	med_blue: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_blue
+		down: buttonlong_blue_pressed
+	}
+	small: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_brown
+		down: buttonlong_brown_pressed
+	}
+	small_beige: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_beige
+		down: buttonlong_beige_pressed
+	}
+	small_grey: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_grey
+		down: buttonlong_grey_pressed
+	}
+	big_grey: {
+		font: roman_big
+		fontColor: RGBA_0_0_0_255
+		up: buttonlong_grey
+		down: buttonlong_grey_pressed
+	}
+	onechar_med: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		up: buttonSquare_brown
+		down: buttonSquare_brown_pressed
+	}
+	onechar_med_beige: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		up: buttonSquare_beige
+		down: buttonSquare_beige_pressed
+	}
+	transparent: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		up: barback_verticalbottom
+		down: barback_verticaltop
+	}
+	med_transparent: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		up: barback_verticalbottom
+		down: barback_verticaltop
+	}
+	med_nobg: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+	}
+	med_nobg_clickbg: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		down: barback_verticalbottom
+	}
+	med_nobg_clickbg_focusbg: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		down: barback_verticaltop
+		over: barback_verticalbottom
+	}
+	small_nobg_clickbg_focusbg: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+		down: barback_verticaltop
+		over: barback_verticalbottom
+	}
+	def_nobg_clickbg_focusbg: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+		down: barback_verticaltop
+		over: barback_verticalbottom
+	}
+	small_nobg: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+	}
+	def_nobg: {
+		font: prince
+		fontColor: RGBA_0_0_0_255
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_brown
+		focusedBackground: buttonlong_brown_pressed
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+	beige: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_beige
+		focusedBackground: buttonlong_beige_pressed
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+	grey: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_grey
+		focusedBackground: buttonlong_grey_pressed
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+	medium: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_brown
+		focusedBackground: buttonlong_brown_pressed
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+	med_beige: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_beige
+		focusedBackground: buttonlong_beige_pressed
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+	med_grey: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_grey
+		focusedBackground: buttonlong_grey_pressed
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+	small: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_brown
+		focusedBackground: buttonlong_brown_pressed
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+	small_beige: {
+		font: roman_mini
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_beige
+		focusedBackground: buttonlong_beige_pressed
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+	big: {
+		font: roman_big
+		fontColor: RGBA_0_0_0_255
+		background: buttonlong_brown
+		focusedBackground: buttonlong_brown_pressed
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+	med_transparent: {
+		font: america_med_cyrSuppp
+		fontColor: RGBA_0_0_0_255
+		background: barback_verticalbottom
+		focusedBackground: barback_verticaltop
+		cursor: cursor
+		selection: barback_verticaltop
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+		background: buttonlong_brown_pressed
+	}
+	big: {
+		label: big
+		background: buttonlong_brown_pressed
+	}
+	small: {
+		label: small
+		background: buttonlong_brown_pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: panelinset_brown_cut
+		knob: cursorSword_gold
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: arrowbeige_righ_stretchable
+		minus: iconCross_brown
+	}
+	def_bg: {
+		plus: arrowbeige_righ_stretchable
+		minus: iconCross_brown
+		background: panelinset_brown_cut
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: panelinset_brown_cut
+		titleFont: roman_mini
+		titleFontColor: RGBA_0_0_0_255
+	}
+	beige: {
+		background: panelinset_beigelight9
+		titleFont: roman_mini
+		titleFontColor: RGBA_0_0_0_255
+	}
+	blue: {
+		background: buttonlong_blue_pressed
+		titleFont: america_med_cyrSuppp
+		titleFontColor: RGBA_0_0_0_255
+	}
+	grey: {
+		background: buttonlong_grey_pressed
+		titleFont: roman_mini
+		titleFontColor: RGBA_0_0_0_255
+	}
+}
+}
