@@ -11,7 +11,7 @@ I used RAY3K's skin composer ... https://ray3k.wordpress.com/software/skin-compo
 Great thing ! 
 ```
 
-![medieval](preview.jpg)
+![medieval](skin.png)
 
 
 ## Description
