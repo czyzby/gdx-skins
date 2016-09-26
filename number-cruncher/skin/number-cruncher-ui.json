@@ -1,0 +1,123 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	button: {
+		file: font-button-export.fnt
+	}
+	font: {
+		file: font-export.fnt
+	}
+	lcd: {
+		file: font-lcd-export.fnt
+	}
+	title: {
+		file: font-title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	gray: {
+		r: 0.45666668
+		g: 0.45666668
+		b: 0.45666668
+		a: 1
+	}
+	text-gray: {
+		r: 0.827451
+		g: 0.827451
+		b: 0.827451
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+	}
+	toggle: {
+		up: button
+		down: button-pressed
+		checked: button-pressed
+	}
+	large: {
+		up: button-large
+		down: button-large-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		font: button
+		up: button
+		down: button-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: text-gray
+	}
+	button: {
+		font: button
+	}
+	title: {
+		font: title
+		fontColor: black
+	}
+	lcd: {
+		font: lcd
+		fontColor: black
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: button
+		fontColor: white
+		downFontColor: gray
+		up: button
+		down: button-pressed
+	}
+	toggle: {
+		font: button
+		fontColor: white
+		downFontColor: gray
+		checkedFontColor: gray
+		up: button
+		down: button-pressed
+		checked: button-pressed
+	}
+	large: {
+		font: button
+		fontColor: white
+		downFontColor: gray
+		up: button-large
+		down: button-large-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: bg
+		titleFont: font
+	}
+}
+}

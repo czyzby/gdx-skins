@@ -1,0 +1,113 @@
+
+number-cruncher-ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 1, 319
+  size: 411, 684
+  split: 17, 30, 45, 50
+  pad: 16, 31, 0, 0
+  orig: 411, 684
+  offset: 0, 0
+  index: -1
+button
+  rotate: false
+  xy: 521, 177
+  size: 77, 68
+  split: 11, 10, 7, 7
+  pad: 11, 10, 1, 1
+  orig: 77, 68
+  offset: 0, 0
+  index: -1
+button-large
+  rotate: false
+  xy: 692, 499
+  size: 77, 134
+  split: 12, 11, 9, 8
+  pad: 11, 11, 1, 1
+  orig: 77, 134
+  offset: 0, 0
+  index: -1
+button-large-pressed
+  rotate: false
+  xy: 692, 363
+  size: 77, 134
+  split: 12, 11, 9, 8
+  pad: 11, 11, 1, 1
+  orig: 77, 134
+  offset: 0, 0
+  index: -1
+button-pressed
+  rotate: false
+  xy: 631, 287
+  size: 77, 68
+  split: 11, 10, 7, 7
+  pad: 11, 10, 1, 1
+  orig: 77, 68
+  offset: 0, 0
+  index: -1
+font-button-export
+  rotate: false
+  xy: 414, 357
+  size: 276, 276
+  orig: 277, 277
+  offset: 0, 1
+  index: -1
+font-export
+  rotate: false
+  xy: 521, 247
+  size: 108, 108
+  orig: 109, 109
+  offset: 0, 1
+  index: -1
+font-lcd-export
+  rotate: false
+  xy: 414, 635
+  size: 328, 328
+  orig: 329, 329
+  offset: 0, 1
+  index: -1
+font-title-export
+  rotate: false
+  xy: 351, 146
+  size: 168, 171
+  orig: 169, 172
+  offset: 0, 1
+  index: -1
+lcd
+  rotate: false
+  xy: 1, 1
+  size: 311, 98
+  split: 11, 10, 9, 10
+  pad: 1, 2, 9, 10
+  orig: 311, 98
+  offset: 0, 0
+  index: -1
+panel
+  rotate: false
+  xy: 1, 101
+  size: 348, 216
+  split: 20, 21, 20, 20
+  pad: 0, 0, 0, 0
+  orig: 348, 216
+  offset: 0, 0
+  index: -1
+panel-black
+  rotate: false
+  xy: 414, 965
+  size: 348, 38
+  split: 0, 0, 0, 24
+  pad: 0, 0, 0, 0
+  orig: 348, 38
+  offset: 0, 0
+  index: -1
+solar-panel
+  rotate: false
+  xy: 351, 104
+  size: 131, 40
+  orig: 131, 40
+  offset: 0, 0
+  index: -1
