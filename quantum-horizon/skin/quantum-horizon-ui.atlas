@@ -1,0 +1,352 @@
+
+quantum-horizon-ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+battery
+  rotate: false
+  xy: 176, 346
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+button
+  rotate: false
+  xy: 662, 970
+  size: 133, 52
+  split: 30, 25, 0, 0
+  pad: 32, 27, 9, 9
+  orig: 133, 52
+  offset: 0, 0
+  index: -1
+button-pressed
+  rotate: false
+  xy: 797, 970
+  size: 133, 52
+  split: 30, 25, 0, 0
+  pad: 32, 27, 9, 9
+  orig: 133, 52
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 647, 723
+  size: 115, 115
+  orig: 115, 115
+  offset: 0, 0
+  index: -1
+font-title-export
+  rotate: false
+  xy: 1, 406
+  size: 261, 261
+  orig: 261, 261
+  offset: 0, 0
+  index: -1
+globe_1
+  rotate: false
+  xy: 472, 799
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+globe_2
+  rotate: false
+  xy: 1, 181
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+globe_3
+  rotate: false
+  xy: 264, 444
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+globe_4
+  rotate: false
+  xy: 1, 6
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+globe_5
+  rotate: false
+  xy: 472, 624
+  size: 173, 173
+  orig: 173, 173
+  offset: 0, 0
+  index: -1
+list
+  rotate: false
+  xy: 311, 415
+  size: 27, 27
+  split: 8, 8, 8, 8
+  pad: 10, 10, 10, 10
+  orig: 27, 27
+  offset: 0, 0
+  index: -1
+minus
+  rotate: false
+  xy: 243, 387
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+pattern-bg
+  rotate: false
+  xy: 647, 840
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+plus
+  rotate: false
+  xy: 819, 881
+  size: 17, 17
+  orig: 17, 17
+  offset: 0, 0
+  index: -1
+progress-bar-horizontal
+  rotate: false
+  xy: 689, 660
+  size: 1, 9
+  orig: 1, 9
+  offset: 0, 0
+  index: -1
+progress-bar-vertical
+  rotate: false
+  xy: 264, 412
+  size: 9, 1
+  orig: 9, 1
+  offset: 0, 0
+  index: -1
+radio-button
+  rotate: false
+  xy: 439, 585
+  size: 9, 32
+  orig: 9, 32
+  offset: 0, 0
+  index: -1
+radio-button-clear
+  rotate: false
+  xy: 176, 312
+  size: 9, 32
+  orig: 9, 32
+  offset: 0, 0
+  index: -1
+radio-button-off
+  rotate: false
+  xy: 918, 936
+  size: 9, 32
+  orig: 9, 32
+  offset: 0, 0
+  index: -1
+radio-button-over
+  rotate: false
+  xy: 439, 551
+  size: 9, 32
+  orig: 9, 32
+  offset: 0, 0
+  index: -1
+scroll-bar-back-horizontal
+  rotate: false
+  xy: 932, 970
+  size: 2, 9
+  orig: 2, 9
+  offset: 0, 0
+  index: -1
+scroll-bar-back-vertical
+  rotate: false
+  xy: 191, 360
+  size: 9, 2
+  orig: 9, 2
+  offset: 0, 0
+  index: -1
+scroll-bar-knob-horizontal
+  rotate: false
+  xy: 777, 847
+  size: 2, 9
+  orig: 2, 9
+  offset: 0, 0
+  index: -1
+scroll-bar-knob-vertical
+  rotate: false
+  xy: 647, 970
+  size: 9, 2
+  orig: 9, 2
+  offset: 0, 0
+  index: -1
+select-box
+  rotate: false
+  xy: 889, 928
+  size: 27, 40
+  split: 0, 15, 15, 0
+  pad: 11, 15, 1, 1
+  orig: 27, 40
+  offset: 0, 0
+  index: -1
+select-box-pressed
+  rotate: false
+  xy: 731, 681
+  size: 27, 40
+  split: 0, 15, 15, 0
+  pad: 11, 15, 1, 1
+  orig: 27, 40
+  offset: 0, 0
+  index: -1
+signal-bar-1
+  rotate: false
+  xy: 472, 974
+  size: 188, 48
+  orig: 188, 48
+  offset: 0, 0
+  index: -1
+signal-bar-2
+  rotate: false
+  xy: 1, 356
+  size: 188, 48
+  orig: 188, 48
+  offset: 0, 0
+  index: -1
+signal-bar-3
+  rotate: false
+  xy: 264, 619
+  size: 188, 48
+  orig: 188, 48
+  offset: 0, 0
+  index: -1
+slider-horizontal
+  rotate: false
+  xy: 191, 364
+  size: 50, 40
+  split: 23, 23, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 50, 40
+  offset: 0, 0
+  index: -1
+slider-knob-horizontal
+  rotate: false
+  xy: 932, 981
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+slider-knob-over-horizontal
+  rotate: false
+  xy: 647, 681
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+slider-knob-over-vertical
+  rotate: false
+  xy: 777, 858
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+slider-knob-pressed-horizontal
+  rotate: false
+  xy: 847, 927
+  size: 40, 41
+  orig: 40, 41
+  offset: 0, 0
+  index: -1
+slider-knob-pressed-vertical
+  rotate: false
+  xy: 974, 982
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+slider-knob-vertical
+  rotate: false
+  xy: 647, 639
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+slider-vertical
+  rotate: false
+  xy: 689, 671
+  size: 40, 50
+  split: 0, 0, 23, 23
+  pad: 0, 0, 1, 0
+  orig: 40, 50
+  offset: 0, 0
+  index: -1
+split-pane-horizontal
+  rotate: false
+  xy: 847, 906
+  size: 3, 19
+  split: 1, 1, 7, 7
+  pad: 0, 0, 0, 0
+  orig: 3, 19
+  offset: 0, 0
+  index: -1
+split-pane-vertical
+  rotate: false
+  xy: 1, 1
+  size: 19, 3
+  split: 7, 7, 1, 1
+  pad: 0, 0, 0, 0
+  orig: 19, 3
+  offset: 0, 0
+  index: -1
+style-bg
+  rotate: false
+  xy: 1016, 982
+  size: 5, 40
+  orig: 5, 40
+  offset: 0, 0
+  index: -1
+textfield
+  rotate: false
+  xy: 764, 821
+  size: 9, 17
+  split: 2, 2, 2, 2
+  pad: 4, 4, 3, 3
+  orig: 9, 17
+  offset: 0, 0
+  index: -1
+tooltip
+  rotate: false
+  xy: 264, 415
+  size: 45, 27
+  split: 36, 0, 21, 0
+  pad: 40, 0, 8, 0
+  orig: 45, 27
+  offset: 0, 0
+  index: -1
+touchpad
+  rotate: false
+  xy: 777, 900
+  size: 68, 68
+  orig: 68, 68
+  offset: 0, 0
+  index: -1
+touchpad-knob
+  rotate: false
+  xy: 454, 652
+  size: 15, 15
+  orig: 15, 15
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 647, 636
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 1, 669
+  size: 469, 353
+  split: 202, 203, 143, 143
+  pad: 85, 86, 23, 24
+  orig: 469, 353
+  offset: 0, 0
+  index: -1
