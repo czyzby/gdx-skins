@@ -1,0 +1,498 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	color: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+	selection: {
+		r: 0.70333326
+		g: 0.70333326
+		b: 0.70333326
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	button-c: {
+		name: button
+		color: color
+	}
+	button-arcade-c: {
+		name: button-arcade
+		color: color
+	}
+	button-arcade-pressed-c: {
+		name: button-arcade-pressed
+		color: color
+	}
+	button-close-c: {
+		name: button-close
+		color: color
+	}
+	button-close-over-c: {
+		name: button-close-over
+		color: color
+	}
+	button-close-pressed-c: {
+		name: button-close-pressed
+		color: color
+	}
+	button-maximize-c: {
+		name: button-maximize
+		color: color
+	}
+	button-maximize-over-c: {
+		name: button-maximize-over
+		color: color
+	}
+	button-maximize-pressed-c: {
+		name: button-maximize-pressed
+		color: color
+	}
+	button-minimize-c: {
+		name: button-minimize
+		color: color
+	}
+	button-minimize-over-c: {
+		name: button-minimize-over
+		color: color
+	}
+	button-minimize-pressed-c: {
+		name: button-minimize-pressed
+		color: color
+	}
+	button-over-c: {
+		name: button-over
+		color: color
+	}
+	button-pressed-c: {
+		name: button-pressed
+		color: color
+	}
+	button-pressed-over-c: {
+		name: button-pressed-over
+		color: color
+	}
+	checkbox-c: {
+		name: checkbox
+		color: color
+	}
+	checkbox-over-c: {
+		name: checkbox-over
+		color: color
+	}
+	checkbox-pressed-c: {
+		name: checkbox-pressed
+		color: color
+	}
+	checkbox-pressed-over-c: {
+		name: checkbox-pressed-over
+		color: color
+	}
+	cursor-c: {
+		name: cursor
+		color: color
+	}
+	list-c: {
+		name: list
+		color: color
+	}
+	progressbar-big-c: {
+		name: progressbar-big
+		color: color
+	}
+	progressbar-horizontal-c: {
+		name: progressbar-horizontal
+		color: color
+	}
+	progressbar-knob-horizontal-c: {
+		name: progressbar-knob-horizontal
+		color: color
+	}
+	progressbar-knob-vertical-c: {
+		name: progressbar-knob-vertical
+		color: color
+	}
+	progressbar-vertical-c: {
+		name: progressbar-vertical
+		color: color
+	}
+	radio-c: {
+		name: radio
+		color: color
+	}
+	radio-over-c: {
+		name: radio-over
+		color: color
+	}
+	radio-pressed-c: {
+		name: radio-pressed
+		color: color
+	}
+	radio-pressed-over-c: {
+		name: radio-pressed-over
+		color: color
+	}
+	selectbox-c: {
+		name: selectbox
+		color: color
+	}
+	selectbox-over-c: {
+		name: selectbox-over
+		color: color
+	}
+	selectbox-pressed-c: {
+		name: selectbox-pressed
+		color: color
+	}
+	selectbox-pressed-over-c: {
+		name: selectbox-pressed-over
+		color: color
+	}
+	slider-horizontal-c: {
+		name: slider-horizontal
+		color: color
+	}
+	slider-knob-horizontal-c: {
+		name: slider-knob-horizontal
+		color: color
+	}
+	slider-knob-over-horizontal-c: {
+		name: slider-knob-over-horizontal
+		color: color
+	}
+	slider-knob-over-vertical-c: {
+		name: slider-knob-over-vertical
+		color: color
+	}
+	slider-knob-pressed-horizontal-c: {
+		name: slider-knob-pressed-horizontal
+		color: color
+	}
+	slider-knob-pressed-vertical-c: {
+		name: slider-knob-pressed-vertical
+		color: color
+	}
+	slider-knob-vertical-c: {
+		name: slider-knob-vertical
+		color: color
+	}
+	slider-vertical-c: {
+		name: slider-vertical
+		color: color
+	}
+	splitpane-horizontal-c: {
+		name: splitpane-horizontal
+		color: color
+	}
+	splitpane-vertical-c: {
+		name: splitpane-vertical
+		color: color
+	}
+	textfield-c: {
+		name: textfield
+		color: color
+	}
+	tooltip-c: {
+		name: tooltip
+		color: color
+	}
+	touchpad-c: {
+		name: touchpad
+		color: color
+	}
+	touchpad-knob-c: {
+		name: touchpad-knob
+		color: color
+	}
+	tree-minus-c: {
+		name: tree-minus
+		color: color
+	}
+	tree-plus-c: {
+		name: tree-plus
+		color: color
+	}
+	window-c: {
+		name: window
+		color: color
+	}
+	window-main-c: {
+		name: window-main
+		color: color
+	}
+	color: {
+		name: white
+		color: color
+	}
+	scrollpane-horizontal-c: {
+		name: scrollpane-horizontal
+		color: color
+	}
+	scrollpane-knob-horizontal-c: {
+		name: scrollpane-knob-horizontal
+		color: color
+	}
+	scrollpane-knob-vertical-c: {
+		name: scrollpane-knob-vertical
+		color: color
+	}
+	scrollpane-vertical-c: {
+		name: scrollpane-vertical
+		color: color
+	}
+	slider-bar-horizontal-c: {
+		name: slider-bar-horizontal
+		color: color
+	}
+	slider-bar-vertical-c: {
+		name: slider-bar-vertical
+		color: color
+	}
+	selection: {
+		name: white
+		color: selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button-c
+		down: button-pressed-over-c
+		over: button-over-c
+	}
+	toggle: {
+		up: button-c
+		down: button-pressed-c
+		over: button-over-c
+		checked: button-pressed-c
+		checkedOver: button-pressed-over-c
+	}
+	minimize: {
+		up: button-minimize-c
+		down: button-minimize-pressed-c
+		over: button-minimize-over-c
+	}
+	maximize: {
+		up: button-maximize-c
+		down: button-maximize-pressed-c
+		over: button-maximize-over-c
+	}
+	close: {
+		up: button-close-c
+		down: button-close-pressed-c
+		over: button-close-over-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: checkbox-pressed-c
+		checkboxOff: checkbox-c
+		checkboxOver: checkbox-over-c
+		font: font
+		fontColor: color
+	}
+	radio: {
+		checkboxOn: radio-pressed-c
+		checkboxOff: radio-c
+		checkboxOver: radio-over-c
+		font: font
+		fontColor: color
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		up: button-c
+		down: button-pressed-over-c
+		over: button-over-c
+	}
+	toggle: {
+		up: button-c
+		down: button-pressed-c
+		over: button-over-c
+		checked: button-pressed-c
+		checkedOver: button-pressed-over-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		font: font
+		up: button-c
+		down: button-pressed-over-c
+		over: button-over-c
+	}
+	toggle: {
+		font: font
+		up: button-c
+		down: button-pressed-c
+		over: button-over-c
+		checked: button-pressed-c
+		checkedOver: button-pressed-over-c
+	}
+	radio: {
+		imageUp: radio-c
+		imageDown: radio-pressed-c
+		imageOver: radio-over-c
+		imageChecked: radio-pressed-c
+		imageCheckedOver: radio-pressed-over-c
+		font: font
+	}
+	checkbox: {
+		imageUp: checkbox-c
+		imageDown: checkbox-pressed-c
+		imageOver: checkbox-over-c
+		imageChecked: checkbox-pressed-c
+		imageCheckedOver: checkbox-pressed-over-c
+		font: font
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: color
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: font
+		fontColorSelected: color
+		fontColorUnselected: color
+		selection: color
+		background: list-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progressbar-horizontal-c
+		knobBefore: progressbar-knob-horizontal-c
+	}
+	default-vertical: {
+		background: progressbar-vertical-c
+		knobBefore: progressbar-knob-vertical-c
+	}
+	tiled: {
+		background: progressbar-horizontal-c
+		knobBefore: progressbar-tiled
+	}
+	tiled-big: {
+		background: progressbar-big-c
+		knobBefore: progressbar-knob-big
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		hScroll: scrollpane-horizontal-c
+		hScrollKnob: scrollpane-knob-horizontal-c
+		vScroll: scrollpane-vertical-c
+		vScrollKnob: scrollpane-knob-vertical-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: font
+		fontColor: color
+		background: selectbox-c
+		scrollStyle: default
+		listStyle: default
+		backgroundOver: selectbox-over-c
+		backgroundOpen: selectbox-pressed-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		knobOver: slider-knob-over-horizontal-c
+		knobDown: slider-knob-pressed-horizontal-c
+		background: slider-horizontal
+		knob: slider-knob-horizontal-c
+		knobBefore: slider-bar-horizontal-c
+	}
+	default-vertical: {
+		knobOver: slider-knob-over-vertical-c
+		knobDown: slider-knob-pressed-vertical-c
+		background: slider-vertical-c
+		knob: slider-knob-vertical-c
+		knobBefore: slider-bar-vertical-c
+	}
+	tick: {
+		knobOver: slider-knob-over-horizontal-c
+		knobDown: slider-knob-pressed-horizontal-c
+		background: slider-tick
+		knob: slider-knob-horizontal-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: splitpane-horizontal-c
+	}
+	default-vertical: {
+		handle: splitpane-vertical-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font
+		fontColor: color
+		up: button-c
+		down: button-pressed-over-c
+		over: button-over-c
+	}
+	toggle: {
+		font: font
+		fontColor: color
+		up: button-c
+		down: button-pressed-c
+		over: button-over-c
+		checked: button-pressed-c
+		checkedOver: button-pressed-over-c
+	}
+	arcade: {
+		font: font
+		up: button-arcade-c
+		down: button-arcade-pressed-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: color
+		background: textfield-c
+		cursor: cursor-c
+		selection: selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+		background: tooltip-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: touchpad-c
+		knob: touchpad-knob-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: tree-plus-c
+		minus: tree-minus-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window-c
+		titleFont: font
+		titleFontColor: color
+	}
+	main: {
+		background: window-main-c
+		titleFont: font
+		titleFontColor: color
+	}
+}
+}
