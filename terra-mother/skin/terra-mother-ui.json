@@ -1,0 +1,125 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	giygas: {
+		file: giygas-export.fnt
+	}
+	saturn: {
+		file: saturn-export.fnt
+	}
+	year199x: {
+		file: 199x-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	color: {
+		r: 0.41960785
+		g: 0.827451
+		b: 0.7411765
+		a: 1
+	}
+	selection: {
+		r: 0.7733333
+		g: 0.7733333
+		b: 0.7733333
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	selection: {
+		name: white
+		color: selection
+	}
+	window-c: {
+		name: window
+		color: color
+	}
+	window-player-c: {
+		name: window-player
+		color: color
+	}
+	label-hp-black: {
+		name: label-hp
+		color: black
+	}
+	label-pp-black: {
+		name: label-pp
+		color: black
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		imageUp: selector-off
+		imageDown: selector
+		imageOver: selector
+		font: font
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+	}
+	year199x: {
+		font: year199x
+	}
+	giygas: {
+		font: giygas
+	}
+	saturn: {
+		font: saturn
+	}
+	black: {
+		font: font
+		fontColor: black
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: white
+		cursor: cursor
+		selection: selection
+	}
+	number: {
+		font: font
+		fontColor: white
+		background: cents
+		cursor: cursor2
+		selection: selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window-c
+		titleFont: font
+	}
+	window-player: {
+		background: window-player-c
+		titleFont: font
+	}
+}
+}

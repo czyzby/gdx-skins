@@ -1,0 +1,191 @@
+
+terra-mother-ui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+199x-export
+  rotate: false
+  xy: 1, 26
+  size: 129, 129
+  orig: 129, 129
+  offset: 0, 0
+  index: -1
+cat
+  rotate: false
+  xy: 1, 4
+  size: 32, 20
+  orig: 32, 20
+  offset: 0, 0
+  index: -1
+cents
+  rotate: false
+  xy: 224, 203
+  size: 48, 25
+  split: 10, 12, 22, 0
+  pad: 12, 32, 0, 0
+  orig: 48, 25
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 58, 5
+  size: 8, 19
+  split: 0, 7, 0, 17
+  pad: 0, 0, 0, 0
+  orig: 8, 19
+  offset: 0, 0
+  index: -1
+cursor2
+  rotate: false
+  xy: 231, 19
+  size: 18, 14
+  split: 0, 17, 0, 3
+  pad: 0, 0, 0, 0
+  orig: 18, 14
+  offset: 0, 0
+  index: -1
+digit-box
+  rotate: false
+  xy: 439, 270
+  size: 13, 26
+  orig: 13, 26
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 132, 35
+  size: 119, 120
+  orig: 119, 120
+  offset: 0, 0
+  index: -1
+giygas-export
+  rotate: false
+  xy: 1, 157
+  size: 221, 222
+  orig: 221, 222
+  offset: 0, 0
+  index: -1
+label-hp
+  rotate: false
+  xy: 35, 6
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+label-pp
+  rotate: false
+  xy: 439, 298
+  size: 21, 18
+  orig: 21, 18
+  offset: 0, 0
+  index: -1
+label-title
+  rotate: false
+  xy: 1, 381
+  size: 310, 130
+  orig: 310, 130
+  offset: 0, 0
+  index: -1
+pc-1
+  rotate: false
+  xy: 353, 273
+  size: 29, 43
+  orig: 29, 43
+  offset: 0, 0
+  index: -1
+pc-2
+  rotate: false
+  xy: 413, 274
+  size: 24, 42
+  orig: 24, 42
+  offset: 0, 0
+  index: -1
+pc-3
+  rotate: false
+  xy: 384, 273
+  size: 27, 43
+  orig: 27, 43
+  offset: 0, 0
+  index: -1
+pc-4
+  rotate: false
+  xy: 318, 235
+  size: 27, 39
+  orig: 27, 39
+  offset: 0, 0
+  index: -1
+saturn-export
+  rotate: false
+  xy: 313, 318
+  size: 193, 193
+  orig: 193, 193
+  offset: 0, 0
+  index: -1
+selector
+  rotate: false
+  xy: 266, 189
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+selector-off
+  rotate: false
+  xy: 462, 304
+  size: 6, 12
+  orig: 6, 12
+  offset: 0, 0
+  index: -1
+smash
+  rotate: false
+  xy: 132, 2
+  size: 97, 31
+  orig: 97, 31
+  offset: 0, 0
+  index: -1
+tile
+  rotate: false
+  xy: 224, 161
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+tile-a
+  rotate: false
+  xy: 311, 276
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+tile-b
+  rotate: false
+  xy: 276, 234
+  size: 40, 40
+  orig: 40, 40
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 1, 1
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 224, 230
+  size: 50, 44
+  split: 14, 15, 17, 20
+  pad: 8, 8, 8, 8
+  orig: 50, 44
+  offset: 0, 0
+  index: -1
+window-player
+  rotate: false
+  xy: 224, 276
+  size: 85, 103
+  split: 17, 18, 18, 18
+  pad: 12, 12, 12, 12
+  orig: 85, 103
+  offset: 0, 0
+  index: -1
