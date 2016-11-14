@@ -1,0 +1,214 @@
+
+freezing-ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 566, 957
+  size: 156, 59
+  split: 0, 0, 0, 0
+  pad: 10, 12, 9, 15
+  orig: 156, 59
+  offset: 0, 0
+  index: -1
+button-down
+  rotate: false
+  xy: 338, 895
+  size: 156, 59
+  split: 0, 0, 0, 0
+  pad: 10, 12, 12, 12
+  orig: 156, 59
+  offset: 0, 0
+  index: -1
+checkbox
+  rotate: false
+  xy: 864, 991
+  size: 36, 25
+  orig: 36, 25
+  offset: 0, 0
+  index: -1
+checkbox copy
+  rotate: false
+  xy: 297, 829
+  size: 36, 25
+  orig: 36, 25
+  offset: 0, 0
+  index: -1
+font-button-export
+  rotate: false
+  xy: 1, 111
+  size: 165, 167
+  orig: 165, 167
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 168, 174
+  size: 104, 104
+  orig: 104, 104
+  offset: 0, 0
+  index: -1
+font-title-export
+  rotate: false
+  xy: 1, 280
+  size: 251, 251
+  orig: 251, 251
+  offset: 0, 0
+  index: -1
+list
+  rotate: false
+  xy: 168, 100
+  size: 95, 72
+  split: 10, 74, 15, 51
+  pad: 12, 16, 15, 14
+  orig: 95, 72
+  offset: 0, 0
+  index: -1
+progress-bar
+  rotate: false
+  xy: 1, 937
+  size: 335, 79
+  orig: 335, 79
+  offset: 0, 0
+  index: -1
+progress-bar-knob
+  rotate: false
+  xy: 1, 856
+  size: 335, 79
+  orig: 335, 79
+  offset: 0, 0
+  index: -1
+scrollbar-horizontal
+  rotate: false
+  xy: 1, 26
+  size: 97, 43
+  split: 49, 42, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 97, 43
+  offset: 0, 0
+  index: -1
+scrollbar-vertical
+  rotate: false
+  xy: 297, 781
+  size: 22, 46
+  split: 0, 0, 20, 21
+  pad: 0, 0, 0, 0
+  orig: 22, 46
+  offset: 0, 0
+  index: -1
+select-box
+  rotate: false
+  xy: 1, 71
+  size: 138, 38
+  split: 54, 49, 0, 0
+  pad: 14, 31, 10, 5
+  orig: 138, 38
+  offset: 0, 0
+  index: -1
+select-box-pressed
+  rotate: false
+  xy: 724, 978
+  size: 138, 38
+  split: 54, 49, 0, 0
+  pad: 14, 31, 10, 5
+  orig: 138, 38
+  offset: 0, 0
+  index: -1
+slider-horizontal
+  rotate: false
+  xy: 724, 963
+  size: 14, 13
+  split: 1, 1, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 14, 13
+  offset: 0, 0
+  index: -1
+slider-knob
+  rotate: false
+  xy: 141, 96
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1
+slider-vertical
+  rotate: false
+  xy: 391, 879
+  size: 13, 14
+  split: 0, 0, 1, 1
+  pad: 0, 0, 0, 0
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+splitpane-horizontal
+  rotate: false
+  xy: 496, 896
+  size: 12, 44
+  split: 0, 0, 7, 8
+  pad: 0, 0, 0, 0
+  orig: 12, 44
+  offset: 0, 0
+  index: -1
+splitpane-vertical
+  rotate: false
+  xy: 496, 942
+  size: 44, 12
+  split: 11, 7, 0, 0
+  pad: 0, 0, 0, 0
+  orig: 44, 12
+  offset: 0, 0
+  index: -1
+textfield
+  rotate: false
+  xy: 338, 864
+  size: 51, 29
+  split: 6, 27, 5, 16
+  pad: 4, 4, 3, 3
+  orig: 51, 29
+  offset: 0, 0
+  index: -1
+touchpad
+  rotate: false
+  xy: 1, 533
+  size: 294, 321
+  orig: 294, 321
+  offset: 0, 0
+  index: -1
+touchpad-knob
+  rotate: false
+  xy: 254, 490
+  size: 35, 41
+  orig: 35, 41
+  offset: 0, 0
+  index: -1
+tree-minus
+  rotate: false
+  xy: 100, 46
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+tree-plus
+  rotate: false
+  xy: 1, 1
+  size: 16, 23
+  orig: 16, 23
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 265, 171
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 338, 956
+  size: 226, 60
+  split: 109, 111, 28, 10
+  pad: 12, 12, 28, 10
+  orig: 226, 60
+  offset: 0, 0
+  index: -1
