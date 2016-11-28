@@ -1,0 +1,129 @@
+
+vhs-ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+button
+  rotate: false
+  xy: 259, 289
+  size: 34, 31
+  split: 16, 0, 0, 0
+  pad: 25, 8, 0, 0
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+button-over
+  rotate: false
+  xy: 322, 350
+  size: 34, 31
+  split: 16, 0, 0, 0
+  pad: 25, 8, 0, 0
+  orig: 34, 31
+  offset: 0, 0
+  index: -1
+checkbox
+  rotate: false
+  xy: 515, 750
+  size: 31, 23
+  orig: 31, 23
+  offset: 0, 0
+  index: -1
+checkbox-on
+  rotate: false
+  xy: 578, 811
+  size: 31, 23
+  orig: 31, 23
+  offset: 0, 0
+  index: -1
+cursor
+  rotate: false
+  xy: 1, 1
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 1, 125
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+font-title-export
+  rotate: false
+  xy: 1, 383
+  size: 512, 512
+  orig: 512, 512
+  offset: 0, 0
+  index: -1
+label-fastforward
+  rotate: false
+  xy: 515, 836
+  size: 61, 59
+  split: 0, 55, 0, 0
+  pad: 0, 60, 0, 0
+  orig: 61, 59
+  offset: 0, 0
+  index: -1
+label-pause
+  rotate: false
+  xy: 1, 64
+  size: 61, 59
+  split: 0, 55, 0, 0
+  pad: 0, 60, 0, 0
+  orig: 61, 59
+  offset: 0, 0
+  index: -1
+label-play
+  rotate: false
+  xy: 578, 836
+  size: 61, 59
+  split: 0, 55, 0, 0
+  pad: 0, 60, 0, 0
+  orig: 61, 59
+  offset: 0, 0
+  index: -1
+label-reverse
+  rotate: false
+  xy: 259, 322
+  size: 61, 59
+  split: 0, 55, 0, 0
+  pad: 0, 60, 0, 0
+  orig: 61, 59
+  offset: 0, 0
+  index: -1
+label-stop
+  rotate: false
+  xy: 515, 775
+  size: 61, 59
+  split: 0, 57, 0, 0
+  pad: 0, 60, 0, 0
+  orig: 61, 59
+  offset: 0, 0
+  index: -1
+progressbar
+  rotate: false
+  xy: 1, 5
+  size: 51, 57
+  split: 5, 5, 5, 5
+  pad: 5, 5, 0, 0
+  orig: 51, 57
+  offset: 0, 0
+  index: -1
+progressbar-knob
+  rotate: false
+  xy: 641, 838
+  size: 8, 57
+  orig: 8, 57
+  offset: 0, 0
+  index: -1
+textfield
+  rotate: false
+  xy: 64, 90
+  size: 42, 33
+  split: 0, 0, 0, 4
+  pad: 3, 4, 0, 6
+  orig: 42, 33
+  offset: 0, 0
+  index: -1
