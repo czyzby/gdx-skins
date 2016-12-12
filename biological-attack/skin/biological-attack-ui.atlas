@@ -1,0 +1,235 @@
+
+biological-attack-ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+checkbox
+  rotate: false
+  xy: 144, 347
+  size: 46, 40
+  orig: 46, 40
+  offset: 0, 0
+  index: -1
+checkbox-off
+  rotate: false
+  xy: 144, 305
+  size: 46, 40
+  orig: 46, 40
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 384, 697
+  size: 140, 140
+  orig: 140, 140
+  offset: 0, 0
+  index: -1
+font-title-export
+  rotate: false
+  xy: 1, 640
+  size: 381, 382
+  orig: 381, 382
+  offset: 0, 0
+  index: -1
+icon-biohazard
+  rotate: false
+  xy: 1, 112
+  size: 79, 73
+  orig: 79, 73
+  offset: 0, 0
+  index: -1
+icon-biohazard-large
+  rotate: false
+  xy: 1, 323
+  size: 141, 130
+  orig: 141, 130
+  offset: 0, 0
+  index: -1
+icon-electricity
+  rotate: false
+  xy: 602, 948
+  size: 44, 74
+  orig: 44, 74
+  offset: 0, 0
+  index: -1
+icon-fire
+  rotate: false
+  xy: 82, 109
+  size: 58, 76
+  orig: 58, 76
+  offset: 0, 0
+  index: -1
+icon-gas-mask
+  rotate: false
+  xy: 458, 631
+  size: 56, 64
+  orig: 56, 64
+  offset: 0, 0
+  index: -1
+icon-laser
+  rotate: false
+  xy: 151, 488
+  size: 65, 48
+  orig: 65, 48
+  offset: 0, 0
+  index: -1
+icon-poison
+  rotate: false
+  xy: 1, 1
+  size: 71, 65
+  orig: 71, 65
+  offset: 0, 0
+  index: -1
+icon-radiation
+  rotate: false
+  xy: 151, 538
+  size: 71, 65
+  orig: 71, 65
+  offset: 0, 0
+  index: -1
+icon-radiation-large
+  rotate: false
+  xy: 1, 455
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+icon-warning
+  rotate: false
+  xy: 75, 62
+  size: 53, 45
+  orig: 53, 45
+  offset: 0, 0
+  index: -1
+list
+  rotate: false
+  xy: 144, 389
+  size: 49, 49
+  split: 2, 2, 2, 2
+  orig: 49, 49
+  offset: 0, 0
+  index: -1
+progress-bar
+  rotate: false
+  xy: 1, 605
+  size: 212, 33
+  orig: 212, 33
+  offset: 0, 0
+  index: -1
+progress-bar-knob
+  rotate: false
+  xy: 384, 989
+  size: 212, 33
+  orig: 212, 33
+  offset: 0, 0
+  index: -1
+radio
+  rotate: false
+  xy: 74, 14
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+radio-off
+  rotate: false
+  xy: 151, 440
+  size: 50, 46
+  orig: 50, 46
+  offset: 0, 0
+  index: -1
+scrollbar
+  rotate: false
+  xy: 602, 927
+  size: 19, 19
+  split: 2, 2, 2, 2
+  pad: 0, 0, 0, 0
+  orig: 19, 19
+  offset: 0, 0
+  index: -1
+select-box
+  rotate: false
+  xy: 384, 653
+  size: 72, 42
+  split: 9, 39, 0, 0
+  pad: 4, 41, 4, 4
+  orig: 72, 42
+  offset: 0, 0
+  index: -1
+select-box-pressed
+  rotate: false
+  xy: 1, 68
+  size: 72, 42
+  split: 9, 39, 0, 0
+  pad: 4, 41, 4, 4
+  orig: 72, 42
+  offset: 0, 0
+  index: -1
+slider
+  rotate: false
+  xy: 526, 789
+  size: 2, 48
+  orig: 2, 48
+  offset: 0, 0
+  index: -1
+slider-knob
+  rotate: false
+  xy: 137, 255
+  size: 44, 48
+  orig: 44, 48
+  offset: 0, 0
+  index: -1
+split-pane
+  rotate: false
+  xy: 598, 1020
+  size: 2, 2
+  orig: 2, 2
+  offset: 0, 0
+  index: -1
+textfield
+  rotate: false
+  xy: 137, 219
+  size: 34, 34
+  split: 2, 2, 2, 2
+  pad: 4, 4, 4, 4
+  orig: 34, 34
+  offset: 0, 0
+  index: -1
+title-bg
+  rotate: false
+  xy: 215, 618
+  size: 20, 20
+  split: 0, 0, 0, 0
+  pad: 9, 9, 0, 0
+  orig: 20, 20
+  offset: 0, 0
+  index: -1
+touchpad
+  rotate: false
+  xy: 384, 839
+  size: 148, 148
+  orig: 148, 148
+  offset: 0, 0
+  index: -1
+touchpad-knob
+  rotate: false
+  xy: 1, 187
+  size: 134, 134
+  orig: 134, 134
+  offset: 0, 0
+  index: -1
+white
+  rotate: false
+  xy: 75, 109
+  size: 1, 1
+  orig: 1, 1
+  offset: 0, 0
+  index: -1
+window
+  rotate: false
+  xy: 534, 858
+  size: 66, 129
+  split: 2, 2, 99, 2
+  orig: 66, 129
+  offset: 0, 0
+  index: -1

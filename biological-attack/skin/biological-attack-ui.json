@@ -1,0 +1,415 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	title: {
+		file: font-title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	background: {
+		r: 1
+		g: 1
+		b: 0
+		a: 1
+	}
+	clear: {
+		r: 1
+		g: 1
+		b: 1
+		a: 0
+	}
+	color: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	down: {
+		r: 0.9033333
+		g: 0.9033333
+		b: 0.9033333
+		a: 1
+	}
+	over: {
+		r: 0.5800001
+		g: 0.5800001
+		b: 0.5800001
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	clear: {
+		name: white
+		color: clear
+	}
+	icon-biohazard-large-c: {
+		name: icon-biohazard-large
+		color: color
+	}
+	icon-electricity-c: {
+		name: icon-electricity
+		color: color
+	}
+	icon-fire-c: {
+		name: icon-fire
+		color: color
+	}
+	icon-gas-mask-c: {
+		name: icon-gas-mask
+		color: color
+	}
+	icon-laser-c: {
+		name: icon-laser
+		color: color
+	}
+	icon-poison-c: {
+		name: icon-poison
+		color: color
+	}
+	icon-radiation-c: {
+		name: icon-radiation
+		color: color
+	}
+	icon-radiation-large-c: {
+		name: icon-radiation-large
+		color: color
+	}
+	icon-warning-c: {
+		name: icon-warning
+		color: color
+	}
+	color: {
+		name: white
+		color: color
+	}
+	list-b: {
+		name: list
+		color: background
+	}
+	scrollbar-c: {
+		name: scrollbar
+		color: color
+	}
+	select-box-b: {
+		name: select-box
+		color: background
+	}
+	select-box-pressed-b: {
+		name: select-box-pressed
+		color: background
+	}
+	slider-c: {
+		name: slider
+		color: color
+	}
+	slider-knob-c: {
+		name: slider-knob
+		color: color
+	}
+	textfield-c: {
+		name: textfield
+		color: color
+	}
+	icon-biohazard-c: {
+		name: icon-biohazard
+		color: color
+	}
+	checkbox-c: {
+		name: checkbox
+		color: color
+	}
+	checkbox-off-c: {
+		name: checkbox-off
+		color: color
+	}
+	radio-b: {
+		name: radio
+		color: background
+	}
+	radio-off-b: {
+		name: radio-off
+		color: background
+	}
+	checkbox-off-o: {
+		name: checkbox-off
+		color: over
+	}
+	radio-off-o: {
+		name: radio-off
+		color: over
+	}
+	over: {
+		name: white
+		color: over
+	}
+	touchpad-b: {
+		name: touchpad
+		color: background
+	}
+	touchpad-knob-c: {
+		name: touchpad-knob
+		color: color
+	}
+	icon-biohazard-d: {
+		name: icon-biohazard
+		color: down
+	}
+	icon-biohazard-o: {
+		name: icon-biohazard
+		color: over
+	}
+	icon-warning-d: {
+		name: icon-warning
+		color: down
+	}
+	icon-warning-o: {
+		name: icon-warning
+		color: over
+	}
+	icon-poison-d: {
+		name: icon-poison
+		color: down
+	}
+	icon-poison-o: {
+		name: icon-poison
+		color: over
+	}
+	icon-fire-d: {
+		name: icon-fire
+		color: down
+	}
+	icon-fire-o: {
+		name: icon-fire
+		color: over
+	}
+	icon-gas-mask-d: {
+		name: icon-gas-mask
+		color: down
+	}
+	icon-gas-mask-o: {
+		name: icon-gas-mask
+		color: over
+	}
+	icon-electricity-d: {
+		name: icon-electricity
+		color: down
+	}
+	icon-electricity-o: {
+		name: icon-electricity
+		color: over
+	}
+	icon-radiation-d: {
+		name: icon-radiation
+		color: down
+	}
+	icon-radiation-o: {
+		name: icon-radiation
+		color: over
+	}
+	icon-laser-d: {
+		name: icon-laser
+		color: down
+	}
+	icon-laser-o: {
+		name: icon-laser
+		color: over
+	}
+	window-b: {
+		name: window
+		color: background
+	}
+	title-bg-c: {
+		name: title-bg
+		color: color
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: checkbox-c
+		checkboxOff: checkbox-off-c
+		font: font
+		fontColor: color
+		overFontColor: over
+	}
+	radio: {
+		checkboxOn: radio-b
+		checkboxOff: radio-off-b
+		font: font
+		fontColor: color
+		overFontColor: over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		imageUp: icon-biohazard-c
+		imageDown: icon-biohazard-d
+		imageOver: icon-biohazard-o
+		font: font
+		fontColor: color
+		downFontColor: down
+		overFontColor: over
+	}
+	warning: {
+		imageUp: icon-warning-c
+		imageDown: icon-warning-d
+		imageOver: icon-warning-o
+		font: font
+		fontColor: color
+		downFontColor: down
+		overFontColor: over
+	}
+	poison: {
+		imageUp: icon-poison-c
+		imageDown: icon-poison-d
+		imageOver: icon-poison-o
+		font: font
+		fontColor: color
+		downFontColor: down
+		overFontColor: over
+	}
+	fire: {
+		imageUp: icon-fire-c
+		imageDown: icon-fire-d
+		imageOver: icon-fire-o
+		font: font
+		fontColor: color
+		downFontColor: down
+		overFontColor: over
+	}
+	gasmask: {
+		imageUp: icon-gas-mask-c
+		imageDown: icon-gas-mask-d
+		imageOver: icon-gas-mask-o
+		font: font
+		fontColor: color
+		downFontColor: down
+		overFontColor: over
+	}
+	electricity: {
+		imageUp: icon-electricity-c
+		imageDown: icon-electricity-d
+		imageOver: icon-electricity-o
+		font: font
+		fontColor: color
+		downFontColor: down
+		overFontColor: over
+	}
+	radiation: {
+		imageUp: icon-radiation-c
+		imageDown: icon-radiation-d
+		imageOver: icon-radiation-o
+		font: font
+		fontColor: color
+		downFontColor: down
+		overFontColor: over
+	}
+	laser: {
+		imageUp: icon-laser-c
+		imageDown: icon-laser-d
+		imageOver: icon-laser-o
+		font: font
+		fontColor: color
+		downFontColor: down
+		overFontColor: over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: color
+	}
+	title: {
+		font: title
+		fontColor: color
+	}
+	title-bg: {
+		font: title
+		fontColor: background
+		background: title-bg-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: font
+		fontColorSelected: color
+		fontColorUnselected: color
+		selection: over
+		background: list-b
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar
+		knobBefore: progress-bar-knob
+	}
+	default-vertical: {
+		background: progress-bar
+		knobBefore: progress-bar-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		hScrollKnob: scrollbar-c
+		vScrollKnob: scrollbar-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: font
+		fontColor: color
+		background: select-box-b
+		scrollStyle: default
+		listStyle: default
+		backgroundOpen: select-box-pressed-b
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		background: clear
+		knob: slider-knob-c
+		knobAfter: slider-c
+	}
+	default-vertical: {
+		background: clear
+		knob: slider-knob-c
+		knobBefore: slider-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: split-pane
+	}
+	default-vertical: {
+		handle: split-pane
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: color
+		background: textfield-c
+		cursor: split-pane
+		selection: over
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: touchpad-b
+		knob: touchpad-knob-c
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window-b
+		titleFont: title
+		titleFontColor: color
+	}
+}
+}
