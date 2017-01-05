@@ -1,0 +1,132 @@
+
+arcade-ui.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 597, 623
+  size: 400, 400
+  orig: 400, 400
+  offset: 0, 0
+  index: -1
+booth
+  rotate: false
+  xy: 1, 240
+  size: 594, 783
+  orig: 594, 783
+  offset: 0, 0
+  index: -1
+button
+  rotate: false
+  xy: 177, 52
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+button-bg
+  rotate: false
+  xy: 401, 144
+  size: 94, 94
+  orig: 95, 94
+  offset: 1, 0
+  index: -1
+button-pressed
+  rotate: false
+  xy: 902, 175
+  size: 61, 61
+  orig: 61, 61
+  offset: 0, 0
+  index: -1
+font-export
+  rotate: false
+  xy: 1, 63
+  size: 174, 175
+  orig: 175, 176
+  offset: 0, 1
+  index: -1
+joystick
+  rotate: false
+  xy: 965, 142
+  size: 58, 94
+  orig: 122, 128
+  offset: 32, 33
+  index: -1
+joystick-bg
+  rotate: false
+  xy: 177, 115
+  size: 122, 123
+  orig: 122, 128
+  offset: 0, 0
+  index: -1
+joystick-d
+  rotate: false
+  xy: 300, 19
+  size: 58, 94
+  orig: 122, 128
+  offset: 32, 33
+  index: -1
+joystick-dl
+  rotate: false
+  xy: 497, 149
+  size: 69, 89
+  orig: 122, 128
+  offset: 21, 33
+  index: -1
+joystick-dr
+  rotate: false
+  xy: 568, 147
+  size: 68, 89
+  orig: 122, 128
+  offset: 32, 33
+  index: -1
+joystick-l
+  rotate: false
+  xy: 638, 143
+  size: 66, 93
+  orig: 122, 128
+  offset: 24, 33
+  index: -1
+joystick-r
+  rotate: false
+  xy: 706, 143
+  size: 66, 93
+  orig: 122, 128
+  offset: 32, 33
+  index: -1
+joystick-u
+  rotate: false
+  xy: 240, 23
+  size: 58, 90
+  orig: 122, 128
+  offset: 32, 33
+  index: -1
+joystick-ul
+  rotate: false
+  xy: 774, 147
+  size: 62, 89
+  orig: 122, 128
+  offset: 28, 33
+  index: -1
+joystick-ur
+  rotate: false
+  xy: 838, 147
+  size: 62, 89
+  orig: 122, 128
+  offset: 32, 33
+  index: -1
+screen-export
+  rotate: false
+  xy: 301, 140
+  size: 98, 98
+  orig: 99, 99
+  offset: 0, 1
+  index: -1
+title-export
+  rotate: false
+  xy: 597, 238
+  size: 383, 383
+  orig: 384, 384
+  offset: 0, 1
+  index: -1

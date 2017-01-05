@@ -1,0 +1,216 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	screen: {
+		file: screen-export.fnt
+	}
+	title: {
+		file: title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	blue: {
+		r: 0
+		g: 0
+		b: 1
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+	yellow: {
+		r: 1
+		g: 1
+		b: 0
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	button-red: {
+		name: button
+		color: red
+	}
+	button-pressed-red: {
+		name: button-pressed
+		color: red
+	}
+	button-blue: {
+		name: button
+		color: blue
+	}
+	button-pressed-blue: {
+		name: button-pressed
+		color: blue
+	}
+	button-yellow: {
+		name: button
+		color: yellow
+	}
+	button-pressed-yellow: {
+		name: button-pressed
+		color: yellow
+	}
+	joystick-red: {
+		name: joystick
+		color: red
+	}
+	joystick-l-red: {
+		name: joystick-l
+		color: red
+	}
+	joystick-u-red: {
+		name: joystick-u
+		color: red
+	}
+	joystick-d-red: {
+		name: joystick-d
+		color: red
+	}
+	joystick-dl-red: {
+		name: joystick-dl
+		color: red
+	}
+	joystick-dr-red: {
+		name: joystick-dr
+		color: red
+	}
+	joystick-r-red: {
+		name: joystick-r
+		color: red
+	}
+	joystick-ul-red: {
+		name: joystick-ul
+		color: red
+	}
+	joystick-ur-red: {
+		name: joystick-ur
+		color: red
+	}
+	joystick-blue: {
+		name: joystick
+		color: blue
+	}
+	joystick-d-blue: {
+		name: joystick-d
+		color: blue
+	}
+	joystick-dl-blue: {
+		name: joystick-dl
+		color: blue
+	}
+	joystick-dr-blue: {
+		name: joystick-dr
+		color: blue
+	}
+	joystick-l-blue: {
+		name: joystick-l
+		color: blue
+	}
+	joystick-r-blue: {
+		name: joystick-r
+		color: blue
+	}
+	joystick-u-blue: {
+		name: joystick-u
+		color: blue
+	}
+	joystick-ul-blue: {
+		name: joystick-ul
+		color: blue
+	}
+	joystick-ur-blue: {
+		name: joystick-ur
+		color: blue
+	}
+	joystick-yellow: {
+		name: joystick
+		color: yellow
+	}
+	joystick-d-yellow: {
+		name: joystick-d
+		color: yellow
+	}
+	joystick-dl-yellow: {
+		name: joystick-dl
+		color: yellow
+	}
+	joystick-dr-yellow: {
+		name: joystick-dr
+		color: yellow
+	}
+	joystick-l-yellow: {
+		name: joystick-l
+		color: yellow
+	}
+	joystick-r-yellow: {
+		name: joystick-r
+		color: yellow
+	}
+	joystick-u-yellow: {
+		name: joystick-u
+		color: yellow
+	}
+	joystick-ul-yellow: {
+		name: joystick-ul
+		color: yellow
+	}
+	joystick-ur-yellow: {
+		name: joystick-ur
+		color: yellow
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+	}
+	red: {
+		up: button-red
+		down: button-pressed-red
+	}
+	blue: {
+		up: button-blue
+		down: button-pressed-blue
+	}
+	yellow: {
+		up: button-yellow
+		down: button-pressed-yellow
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+	}
+	screen: {
+		font: screen
+	}
+	title: {
+		font: title
+		fontColor: red
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: joystick
+	}
+	red: {
+		background: joystick-red
+	}
+	blue: {
+		background: joystick-blue
+	}
+	yellow: {
+		background: joystick-yellow
+	}
+}
+}
