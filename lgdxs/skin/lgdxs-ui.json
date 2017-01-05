@@ -1,0 +1,2144 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	sub-title: {
+		file: sub-title-font-export.fnt
+	}
+	title: {
+		file: title-font-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	clear: {
+		r: 1
+		g: 0
+		b: 0
+		a: 0
+	}
+	color: {
+		r: 0.21176471
+		g: 0.5254902
+		b: 1
+		a: 1
+	}
+	color-pressed: {
+		r: 0.03529412
+		g: 0.28235295
+		b: 0.92156863
+		a: 1
+	}
+	color2: {
+		r: 1
+		g: 0.6
+		b: 0.20392157
+		a: 1
+	}
+	color2-pressed: {
+		r: 0.827451
+		g: 0.37254903
+		b: 0.08627451
+		a: 1
+	}
+	color3: {
+		r: 0.65882355
+		g: 0.6156863
+		b: 0.20392157
+		a: 1
+	}
+	color3-pressed: {
+		r: 0.94509804
+		g: 0.76862746
+		b: 0.06666667
+		a: 1
+	}
+	color4: {
+		r: 0.5803922
+		g: 0.627451
+		b: 1
+		a: 1
+	}
+	color4-pressed: {
+		r: 0.12156863
+		g: 1
+		b: 0.9764706
+		a: 1
+	}
+	color5: {
+		r: 0.92156863
+		g: 0.90588236
+		b: 0.75686276
+		a: 1
+	}
+	color5-pressed: {
+		r: 0.84705883
+		g: 0.64705884
+		b: 0.4392157
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	button-c: {
+		name: button
+		color: color
+	}
+	button-c-p: {
+		name: button
+		color: color-pressed
+	}
+	button-c2: {
+		name: button
+		color: color2
+	}
+	button-c2-p: {
+		name: button
+		color: color2-pressed
+	}
+	button-c3: {
+		name: button
+		color: color3
+	}
+	button-c3-p: {
+		name: button
+		color: color3-pressed
+	}
+	button-c4: {
+		name: button
+		color: color4
+	}
+	button-c4-p: {
+		name: button
+		color: color4-pressed
+	}
+	button-c5: {
+		name: button
+		color: color5
+	}
+	button-c5-p: {
+		name: button
+		color: color5-pressed
+	}
+	button-big-c: {
+		name: button-big
+		color: color
+	}
+	button-big-c-p: {
+		name: button-big
+		color: color-pressed
+	}
+	button-big-c2: {
+		name: button-big
+		color: color2
+	}
+	button-big-c2-p: {
+		name: button-big
+		color: color2-pressed
+	}
+	button-big-c3: {
+		name: button-big
+		color: color3
+	}
+	button-big-c3-p: {
+		name: button-big
+		color: color3-pressed
+	}
+	button-big-c4: {
+		name: button-big
+		color: color4
+	}
+	button-big-c4-p: {
+		name: button-big
+		color: color4-pressed
+	}
+	button-big-c5: {
+		name: button-big
+		color: color5
+	}
+	button-big-c5-p: {
+		name: button-big
+		color: color5-pressed
+	}
+	button-big-disabled-c: {
+		name: button-big-disabled
+		color: color
+	}
+	button-big-disabled-c-p: {
+		name: button-big-disabled
+		color: color-pressed
+	}
+	button-big-disabled-c2: {
+		name: button-big-disabled
+		color: color2
+	}
+	button-big-disabled-c2-p: {
+		name: button-big-disabled
+		color: color2-pressed
+	}
+	button-big-disabled-c3: {
+		name: button-big-disabled
+		color: color3
+	}
+	button-big-disabled-c3-p: {
+		name: button-big-disabled
+		color: color3-pressed
+	}
+	button-big-disabled-c4: {
+		name: button-big-disabled
+		color: color4
+	}
+	button-big-disabled-c4-p: {
+		name: button-big-disabled
+		color: color4-pressed
+	}
+	button-big-disabled-c5: {
+		name: button-big-disabled
+		color: color5
+	}
+	button-big-disabled-c5-p: {
+		name: button-big-disabled
+		color: color5-pressed
+	}
+	button-disabled-c: {
+		name: button-disabled
+		color: color
+	}
+	button-disabled-c-p: {
+		name: button-disabled
+		color: color-pressed
+	}
+	button-disabled-c2: {
+		name: button-disabled
+		color: color2
+	}
+	button-disabled-c2-p: {
+		name: button-disabled
+		color: color2-pressed
+	}
+	button-disabled-c3: {
+		name: button-disabled
+		color: color3
+	}
+	button-disabled-c3-p: {
+		name: button-disabled
+		color: color3-pressed
+	}
+	button-disabled-c4: {
+		name: button-disabled
+		color: color4
+	}
+	button-disabled-c4-p: {
+		name: button-disabled
+		color: color4-pressed
+	}
+	button-disabled-c5: {
+		name: button-disabled
+		color: color5
+	}
+	button-disabled-c5-p: {
+		name: button-disabled
+		color: color5-pressed
+	}
+	button-oval-c: {
+		name: button-oval
+		color: color
+	}
+	button-oval-c-p: {
+		name: button-oval
+		color: color-pressed
+	}
+	button-oval-c2: {
+		name: button-oval
+		color: color2
+	}
+	button-oval-c2-p: {
+		name: button-oval
+		color: color2-pressed
+	}
+	button-oval-c3: {
+		name: button-oval
+		color: color3
+	}
+	button-oval-c3-p: {
+		name: button-oval
+		color: color3-pressed
+	}
+	button-oval-c4: {
+		name: button-oval
+		color: color4
+	}
+	button-oval-c4-p: {
+		name: button-oval
+		color: color4-pressed
+	}
+	button-oval-c5: {
+		name: button-oval
+		color: color5
+	}
+	button-oval-c5-p: {
+		name: button-oval
+		color: color5-pressed
+	}
+	button-small-c: {
+		name: button-small
+		color: color
+	}
+	button-small-c-p: {
+		name: button-small
+		color: color-pressed
+	}
+	button-small-c2: {
+		name: button-small
+		color: color2
+	}
+	button-small-c2-p: {
+		name: button-small
+		color: color2-pressed
+	}
+	button-small-c3: {
+		name: button-small
+		color: color3
+	}
+	button-small-c3-p: {
+		name: button-small
+		color: color3-pressed
+	}
+	button-small-c4: {
+		name: button-small
+		color: color4
+	}
+	button-small-c4-p: {
+		name: button-small
+		color: color4-pressed
+	}
+	button-small-c5: {
+		name: button-small
+		color: color5
+	}
+	button-small-c5-p: {
+		name: button-small
+		color: color5-pressed
+	}
+	button-small-disabled-c: {
+		name: button-small-disabled
+		color: color
+	}
+	button-small-disabled-c-p: {
+		name: button-small-disabled
+		color: color-pressed
+	}
+	button-small-disabled-c2: {
+		name: button-small-disabled
+		color: color2
+	}
+	button-small-disabled-c2-p: {
+		name: button-small-disabled
+		color: color2-pressed
+	}
+	button-small-disabled-c3: {
+		name: button-small-disabled
+		color: color3
+	}
+	button-small-disabled-c3-p: {
+		name: button-small-disabled
+		color: color3-pressed
+	}
+	button-small-disabled-c4: {
+		name: button-small-disabled
+		color: color4
+	}
+	button-small-disabled-c4-p: {
+		name: button-small-disabled
+		color: color4-pressed
+	}
+	button-small-disabled-c5: {
+		name: button-small-disabled
+		color: color5
+	}
+	button-small-disabled-c5-p: {
+		name: button-small-disabled
+		color: color5-pressed
+	}
+	corner-bl-c: {
+		name: corner-bl
+		color: color
+	}
+	corner-bl-c-p: {
+		name: corner-bl
+		color: color-pressed
+	}
+	corner-bl-c2: {
+		name: corner-bl
+		color: color2
+	}
+	corner-bl-c2-p: {
+		name: corner-bl
+		color: color2-pressed
+	}
+	corner-bl-c3: {
+		name: corner-bl
+		color: color3
+	}
+	corner-bl-c3-p: {
+		name: corner-bl
+		color: color3-pressed
+	}
+	corner-bl-c4: {
+		name: corner-bl
+		color: color4
+	}
+	corner-bl-c4-p: {
+		name: corner-bl
+		color: color4-pressed
+	}
+	corner-bl-c5: {
+		name: corner-bl
+		color: color5
+	}
+	corner-bl-c5-p: {
+		name: corner-bl
+		color: color5-pressed
+	}
+	corner-bm-bl-c: {
+		name: corner-bm-bl
+		color: color
+	}
+	corner-bm-bl-c-p: {
+		name: corner-bm-bl
+		color: color-pressed
+	}
+	corner-bm-bl-c2: {
+		name: corner-bm-bl
+		color: color2
+	}
+	corner-bm-bl-c2-p: {
+		name: corner-bm-bl
+		color: color2-pressed
+	}
+	corner-bm-bl-c3: {
+		name: corner-bm-bl
+		color: color3
+	}
+	corner-bm-bl-c3-p: {
+		name: corner-bm-bl
+		color: color3-pressed
+	}
+	corner-bm-bl-c4: {
+		name: corner-bm-bl
+		color: color4
+	}
+	corner-bm-bl-c4-p: {
+		name: corner-bm-bl
+		color: color4-pressed
+	}
+	corner-bm-bl-c5: {
+		name: corner-bm-bl
+		color: color5
+	}
+	corner-bm-bl-c5-p: {
+		name: corner-bm-bl
+		color: color5-pressed
+	}
+	corner-bm-br-c: {
+		name: corner-bm-br
+		color: color
+	}
+	corner-bm-br-c-p: {
+		name: corner-bm-br
+		color: color-pressed
+	}
+	corner-bm-br-c2: {
+		name: corner-bm-br
+		color: color2
+	}
+	corner-bm-br-c2-p: {
+		name: corner-bm-br
+		color: color2-pressed
+	}
+	corner-bm-br-c3: {
+		name: corner-bm-br
+		color: color3
+	}
+	corner-bm-br-c3-p: {
+		name: corner-bm-br
+		color: color3-pressed
+	}
+	corner-bm-br-c4: {
+		name: corner-bm-br
+		color: color4
+	}
+	corner-bm-br-c4-p: {
+		name: corner-bm-br
+		color: color4-pressed
+	}
+	corner-bm-br-c5: {
+		name: corner-bm-br
+		color: color5
+	}
+	corner-bm-br-c5-p: {
+		name: corner-bm-br
+		color: color5-pressed
+	}
+	corner-bm-tl-c: {
+		name: corner-bm-tl
+		color: color
+	}
+	corner-bm-tl-c-p: {
+		name: corner-bm-tl
+		color: color-pressed
+	}
+	corner-bm-tl-c2: {
+		name: corner-bm-tl
+		color: color2
+	}
+	corner-bm-tl-c2-p: {
+		name: corner-bm-tl
+		color: color2-pressed
+	}
+	corner-bm-tl-c3: {
+		name: corner-bm-tl
+		color: color3
+	}
+	corner-bm-tl-c3-p: {
+		name: corner-bm-tl
+		color: color3-pressed
+	}
+	corner-bm-tl-c4: {
+		name: corner-bm-tl
+		color: color4
+	}
+	corner-bm-tl-c4-p: {
+		name: corner-bm-tl
+		color: color4-pressed
+	}
+	corner-bm-tl-c5: {
+		name: corner-bm-tl
+		color: color5
+	}
+	corner-bm-tl-c5-p: {
+		name: corner-bm-tl
+		color: color5-pressed
+	}
+	corner-bm-tr-c: {
+		name: corner-bm-tr
+		color: color
+	}
+	corner-bm-tr-c-p: {
+		name: corner-bm-tr
+		color: color-pressed
+	}
+	corner-bm-tr-c2: {
+		name: corner-bm-tr
+		color: color2
+	}
+	corner-bm-tr-c2-p: {
+		name: corner-bm-tr
+		color: color2-pressed
+	}
+	corner-bm-tr-c3: {
+		name: corner-bm-tr
+		color: color3
+	}
+	corner-bm-tr-c3-p: {
+		name: corner-bm-tr
+		color: color3-pressed
+	}
+	corner-bm-tr-c4: {
+		name: corner-bm-tr
+		color: color4
+	}
+	corner-bm-tr-c4-p: {
+		name: corner-bm-tr
+		color: color4-pressed
+	}
+	corner-bm-tr-c5: {
+		name: corner-bm-tr
+		color: color5
+	}
+	corner-bm-tr-c5-p: {
+		name: corner-bm-tr
+		color: color5-pressed
+	}
+	corner-br-c: {
+		name: corner-br
+		color: color
+	}
+	corner-br-c-p: {
+		name: corner-br
+		color: color-pressed
+	}
+	corner-br-c2: {
+		name: corner-br
+		color: color2
+	}
+	corner-br-c2-p: {
+		name: corner-br
+		color: color2-pressed
+	}
+	corner-br-c3: {
+		name: corner-br
+		color: color3
+	}
+	corner-br-c3-p: {
+		name: corner-br
+		color: color3-pressed
+	}
+	corner-br-c4: {
+		name: corner-br
+		color: color4
+	}
+	corner-br-c4-p: {
+		name: corner-br
+		color: color4-pressed
+	}
+	corner-br-c5: {
+		name: corner-br
+		color: color5
+	}
+	corner-br-c5-p: {
+		name: corner-br
+		color: color5-pressed
+	}
+	corner-bs-bl-c: {
+		name: corner-bs-bl
+		color: color
+	}
+	corner-bs-bl-c-p: {
+		name: corner-bs-bl
+		color: color-pressed
+	}
+	corner-bs-bl-c2: {
+		name: corner-bs-bl
+		color: color2
+	}
+	corner-bs-bl-c2-p: {
+		name: corner-bs-bl
+		color: color2-pressed
+	}
+	corner-bs-bl-c3: {
+		name: corner-bs-bl
+		color: color3
+	}
+	corner-bs-bl-c3-p: {
+		name: corner-bs-bl
+		color: color3-pressed
+	}
+	corner-bs-bl-c4: {
+		name: corner-bs-bl
+		color: color4
+	}
+	corner-bs-bl-c4-p: {
+		name: corner-bs-bl
+		color: color4-pressed
+	}
+	corner-bs-bl-c5: {
+		name: corner-bs-bl
+		color: color5
+	}
+	corner-bs-bl-c5-p: {
+		name: corner-bs-bl
+		color: color5-pressed
+	}
+	corner-bs-br-c: {
+		name: corner-bs-br
+		color: color
+	}
+	corner-bs-br-c-p: {
+		name: corner-bs-br
+		color: color-pressed
+	}
+	corner-bs-br-c2: {
+		name: corner-bs-br
+		color: color2
+	}
+	corner-bs-br-c2-p: {
+		name: corner-bs-br
+		color: color2-pressed
+	}
+	corner-bs-br-c3: {
+		name: corner-bs-br
+		color: color3
+	}
+	corner-bs-br-c3-p: {
+		name: corner-bs-br
+		color: color3-pressed
+	}
+	corner-bs-br-c4: {
+		name: corner-bs-br
+		color: color4
+	}
+	corner-bs-br-c4-p: {
+		name: corner-bs-br
+		color: color4-pressed
+	}
+	corner-bs-br-c5: {
+		name: corner-bs-br
+		color: color5
+	}
+	corner-bs-br-c5-p: {
+		name: corner-bs-br
+		color: color5-pressed
+	}
+	corner-bs-tl-c: {
+		name: corner-bs-tl
+		color: color
+	}
+	corner-bs-tl-c-p: {
+		name: corner-bs-tl
+		color: color-pressed
+	}
+	corner-bs-tl-c2: {
+		name: corner-bs-tl
+		color: color2
+	}
+	corner-bs-tl-c2-p: {
+		name: corner-bs-tl
+		color: color2-pressed
+	}
+	corner-bs-tl-c3: {
+		name: corner-bs-tl
+		color: color3
+	}
+	corner-bs-tl-c3-p: {
+		name: corner-bs-tl
+		color: color3-pressed
+	}
+	corner-bs-tl-c4: {
+		name: corner-bs-tl
+		color: color4
+	}
+	corner-bs-tl-c4-p: {
+		name: corner-bs-tl
+		color: color4-pressed
+	}
+	corner-bs-tl-c5: {
+		name: corner-bs-tl
+		color: color5
+	}
+	corner-bs-tl-c5-p: {
+		name: corner-bs-tl
+		color: color5-pressed
+	}
+	corner-bs-tr-c: {
+		name: corner-bs-tr
+		color: color
+	}
+	corner-bs-tr-c-p: {
+		name: corner-bs-tr
+		color: color-pressed
+	}
+	corner-bs-tr-c2: {
+		name: corner-bs-tr
+		color: color2
+	}
+	corner-bs-tr-c2-p: {
+		name: corner-bs-tr
+		color: color2-pressed
+	}
+	corner-bs-tr-c3: {
+		name: corner-bs-tr
+		color: color3
+	}
+	corner-bs-tr-c3-p: {
+		name: corner-bs-tr
+		color: color3-pressed
+	}
+	corner-bs-tr-c4: {
+		name: corner-bs-tr
+		color: color4
+	}
+	corner-bs-tr-c4-p: {
+		name: corner-bs-tr
+		color: color4-pressed
+	}
+	corner-bs-tr-c5: {
+		name: corner-bs-tr
+		color: color5
+	}
+	corner-bs-tr-c5-p: {
+		name: corner-bs-tr
+		color: color5-pressed
+	}
+	corner-tl-c: {
+		name: corner-tl
+		color: color
+	}
+	corner-tl-c-p: {
+		name: corner-tl
+		color: color-pressed
+	}
+	corner-tl-c2: {
+		name: corner-tl
+		color: color2
+	}
+	corner-tl-c2-p: {
+		name: corner-tl
+		color: color2-pressed
+	}
+	corner-tl-c3: {
+		name: corner-tl
+		color: color3
+	}
+	corner-tl-c3-p: {
+		name: corner-tl
+		color: color3-pressed
+	}
+	corner-tl-c4: {
+		name: corner-tl
+		color: color4
+	}
+	corner-tl-c4-p: {
+		name: corner-tl
+		color: color4-pressed
+	}
+	corner-tl-c5: {
+		name: corner-tl
+		color: color5
+	}
+	corner-tl-c5-p: {
+		name: corner-tl
+		color: color5-pressed
+	}
+	corner-tr-c: {
+		name: corner-tr
+		color: color
+	}
+	corner-tr-c-p: {
+		name: corner-tr
+		color: color-pressed
+	}
+	corner-tr-c2: {
+		name: corner-tr
+		color: color2
+	}
+	corner-tr-c2-p: {
+		name: corner-tr
+		color: color2-pressed
+	}
+	corner-tr-c3: {
+		name: corner-tr
+		color: color3
+	}
+	corner-tr-c3-p: {
+		name: corner-tr
+		color: color3-pressed
+	}
+	corner-tr-c4: {
+		name: corner-tr
+		color: color4
+	}
+	corner-tr-c4-p: {
+		name: corner-tr
+		color: color4-pressed
+	}
+	corner-tr-c5: {
+		name: corner-tr
+		color: color5
+	}
+	corner-tr-c5-p: {
+		name: corner-tr
+		color: color5-pressed
+	}
+	endcap-left-c: {
+		name: endcap-left
+		color: color
+	}
+	endcap-left-c-p: {
+		name: endcap-left
+		color: color-pressed
+	}
+	endcap-left-c2: {
+		name: endcap-left
+		color: color2
+	}
+	endcap-left-c2-p: {
+		name: endcap-left
+		color: color2-pressed
+	}
+	endcap-left-c3: {
+		name: endcap-left
+		color: color3
+	}
+	endcap-left-c3-p: {
+		name: endcap-left
+		color: color3-pressed
+	}
+	endcap-left-c4: {
+		name: endcap-left
+		color: color4
+	}
+	endcap-left-c4-p: {
+		name: endcap-left
+		color: color4-pressed
+	}
+	endcap-left-c5: {
+		name: endcap-left
+		color: color5
+	}
+	endcap-left-c5-p: {
+		name: endcap-left
+		color: color5-pressed
+	}
+	endcap-right-c: {
+		name: endcap-right
+		color: color
+	}
+	endcap-right-c-p: {
+		name: endcap-right
+		color: color-pressed
+	}
+	endcap-right-c2: {
+		name: endcap-right
+		color: color2
+	}
+	endcap-right-c2-p: {
+		name: endcap-right
+		color: color2-pressed
+	}
+	endcap-right-c3: {
+		name: endcap-right
+		color: color3
+	}
+	endcap-right-c3-p: {
+		name: endcap-right
+		color: color3-pressed
+	}
+	endcap-right-c4: {
+		name: endcap-right
+		color: color4
+	}
+	endcap-right-c4-p: {
+		name: endcap-right
+		color: color4-pressed
+	}
+	endcap-right-c5: {
+		name: endcap-right
+		color: color5
+	}
+	endcap-right-c5-p: {
+		name: endcap-right
+		color: color5-pressed
+	}
+	endcap-small-left-c: {
+		name: endcap-small-left
+		color: color
+	}
+	endcap-small-left-c-p: {
+		name: endcap-small-left
+		color: color-pressed
+	}
+	endcap-small-left-c2: {
+		name: endcap-small-left
+		color: color2
+	}
+	endcap-small-left-c2-p: {
+		name: endcap-small-left
+		color: color2-pressed
+	}
+	endcap-small-left-c3: {
+		name: endcap-small-left
+		color: color3
+	}
+	endcap-small-left-c3-p: {
+		name: endcap-small-left
+		color: color3-pressed
+	}
+	endcap-small-left-c4: {
+		name: endcap-small-left
+		color: color4
+	}
+	endcap-small-left-c4-p: {
+		name: endcap-small-left
+		color: color4-pressed
+	}
+	endcap-small-left-c5: {
+		name: endcap-small-left
+		color: color5
+	}
+	endcap-small-left-c5-p: {
+		name: endcap-small-left
+		color: color5-pressed
+	}
+	endcap-small-right-c: {
+		name: endcap-small-right
+		color: color
+	}
+	endcap-small-right-c-p: {
+		name: endcap-small-right
+		color: color-pressed
+	}
+	endcap-small-right-c2: {
+		name: endcap-small-right
+		color: color2
+	}
+	endcap-small-right-c2-p: {
+		name: endcap-small-right
+		color: color2-pressed
+	}
+	endcap-small-right-c3: {
+		name: endcap-small-right
+		color: color3
+	}
+	endcap-small-right-c3-p: {
+		name: endcap-small-right
+		color: color3-pressed
+	}
+	endcap-small-right-c4: {
+		name: endcap-small-right
+		color: color4
+	}
+	endcap-small-right-c4-p: {
+		name: endcap-small-right
+		color: color4-pressed
+	}
+	endcap-small-right-c5: {
+		name: endcap-small-right
+		color: color5
+	}
+	endcap-small-right-c5-p: {
+		name: endcap-small-right
+		color: color5-pressed
+	}
+	progress-bar-back-horizontal-c: {
+		name: progress-bar-back-horizontal
+		color: color
+	}
+	progress-bar-back-vertical-c: {
+		name: progress-bar-back-vertical
+		color: color
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button-c
+		down: button-c-p
+		disabled: button-disabled-c
+	}
+	toggle: {
+		up: button-c
+		down: button-c-p
+		checked: button-c-p
+		disabled: button-disabled-c
+	}
+	color2: {
+		up: button-c2
+		down: button-c2-p
+		disabled: button-disabled-c2
+	}
+	color3: {
+		up: button-c3
+		down: button-c3-p
+		disabled: button-disabled-c3
+	}
+	color4: {
+		up: button-c4
+		down: button-c4-p
+		disabled: button-disabled-c4
+	}
+	color5: {
+		up: button-c5
+		down: button-c5-p
+		disabled: button-disabled-c5
+	}
+	small1: {
+		up: button-small-c
+		down: button-small-c-p
+		disabled: button-small-disabled-c
+	}
+	small2: {
+		up: button-small-c2
+		down: button-small-c2-p
+		disabled: button-small-disabled-c2
+	}
+	small3: {
+		up: button-small-c3
+		down: button-small-c3-p
+		disabled: button-small-disabled-c3
+	}
+	small4: {
+		up: button-small-c4
+		down: button-small-c4-p
+		disabled: button-small-disabled-c4
+	}
+	small5: {
+		up: button-small-c5
+		down: button-small-c5-p
+		disabled: button-small-disabled-c5
+	}
+	big1: {
+		up: button-big-c
+		down: button-big-c-p
+		disabled: button-big-disabled-c
+	}
+	big2: {
+		up: button-big-c2
+		down: button-big-c2-p
+		disabled: button-big-disabled-c2
+	}
+	big3: {
+		up: button-big-c3
+		down: button-big-c3-p
+		disabled: button-big-disabled-c3
+	}
+	big4: {
+		up: button-big-c4
+		down: button-big-c4-p
+		disabled: button-big-disabled-c4
+	}
+	big5: {
+		up: button-big-c5
+		down: button-big-c5-p
+		disabled: button-big-disabled-c5
+	}
+	oval1: {
+		up: button-oval-c
+		down: button-oval-c-p
+	}
+	oval2: {
+		up: button-oval-c2
+		down: button-oval-c2-p
+	}
+	oval3: {
+		up: button-oval-c3
+		down: button-oval-c3-p
+	}
+	oval4: {
+		up: button-oval-c4
+		down: button-oval-c4-p
+	}
+	oval5: {
+		up: button-oval-c5
+		down: button-oval-c5-p
+	}
+	corner-tl1: {
+		up: corner-tl-c
+		down: corner-tl-c-p
+	}
+	corner-tl2: {
+		up: corner-tl-c2
+		down: corner-tl-c2-p
+	}
+	corner-tl3: {
+		up: corner-tl-c3
+		down: corner-tl-c3-p
+	}
+	corner-tl4: {
+		up: corner-tl-c4
+		down: corner-tl-c4-p
+	}
+	corner-tl5: {
+		up: corner-tl-c5
+		down: corner-tl-c5-p
+	}
+	corner-tr1: {
+		up: corner-tr-c
+		down: corner-tr-c-p
+	}
+	corner-tr2: {
+		up: corner-tr-c2
+		down: corner-tr-c2-p
+	}
+	corner-tr3: {
+		up: corner-tr-c3
+		down: corner-tr-c3-p
+	}
+	corner-tr4: {
+		up: corner-tr-c4
+		down: corner-tr-c4-p
+	}
+	corner-tr5: {
+		up: corner-tr-c5
+		down: corner-tr-c5-p
+	}
+	corner-br1: {
+		up: corner-br-c
+		down: corner-br-c-p
+	}
+	corner-br2: {
+		up: corner-br-c2
+		down: corner-br-c2-p
+	}
+	corner-br3: {
+		up: corner-br-c3
+		down: corner-br-c3-p
+	}
+	corner-br4: {
+		up: corner-br-c4
+		down: corner-br-c4-p
+	}
+	corner-br5: {
+		up: corner-br-c5
+		down: corner-br-c5-p
+	}
+	corner-bl1: {
+		up: corner-bl-c
+		down: corner-bl-c-p
+	}
+	corner-bl2: {
+		up: corner-bl-c
+		down: corner-bl-c-p
+	}
+	corner-bl2: {
+		up: corner-bl-c2
+		down: corner-bl-c2-p
+	}
+	corner-bl3: {
+		up: corner-bl-c3
+		down: corner-bl-c3-p
+	}
+	corner-bl4: {
+		up: corner-bl-c4
+		down: corner-bl-c4-p
+	}
+	corner-bl5: {
+		up: corner-bl-c5
+		down: corner-bl-c5-p
+	}
+	corner-bm-tl1: {
+		up: corner-bm-tl-c
+		down: corner-bm-tl-c-p
+	}
+	corner-bm-tl2: {
+		up: corner-bm-tl-c2
+		down: corner-bm-tl-c2-p
+	}
+	corner-bm-tl3: {
+		up: corner-bm-tl-c3
+		down: corner-bm-tl-c3-p
+	}
+	corner-bm-tl4: {
+		up: corner-bm-tl-c4
+		down: corner-bm-tl-c4-p
+	}
+	corner-bm-tl5: {
+		up: corner-bm-tl-c5
+		down: corner-bm-tl-c5-p
+	}
+	corner-bm-tr1: {
+		up: corner-bm-tr-c
+		down: corner-bm-tr-c-p
+	}
+	corner-bm-tr2: {
+		up: corner-bm-tr-c2
+		down: corner-bm-tr-c2-p
+	}
+	corner-bm-tr3: {
+		up: corner-bm-tr-c3
+		down: corner-bm-tr-c3-p
+	}
+	corner-bm-tr4: {
+		up: corner-bm-tr-c4
+		down: corner-bm-tr-c4-p
+	}
+	corner-bm-tr5: {
+		up: corner-bm-tr-c5
+		down: corner-bm-tr-c5-p
+	}
+	corner-bm-br1: {
+		up: corner-bm-br-c
+		down: corner-bs-br-c-p
+	}
+	corner-bm-br2: {
+		up: corner-bs-br-c2
+		down: corner-bm-br-c2-p
+	}
+	corner-bm-br3: {
+		up: corner-bs-br-c3
+		down: corner-bm-br-c3-p
+	}
+	corner-bm-br4: {
+		up: corner-bm-br-c4
+		down: corner-bm-br-c4-p
+	}
+	corner-bm-br5: {
+		up: corner-bm-br-c5
+		down: corner-bm-br-c5-p
+	}
+	corner-bm-bl1: {
+		up: corner-bm-bl-c
+		down: corner-bm-bl-c-p
+	}
+	corner-bm-bl2: {
+		up: corner-bm-bl-c2
+		down: corner-bm-bl-c2-p
+	}
+	corner-bm-bl3: {
+		up: corner-bm-bl-c3
+		down: corner-bm-bl-c3-p
+	}
+	corner-bm-bl4: {
+		up: corner-bm-bl-c4
+		down: corner-bm-bl-c4-p
+	}
+	corner-bm-bl5: {
+		up: corner-bm-bl-c5
+		down: corner-bm-bl-c5-p
+	}
+	corner-bs-tl1: {
+		up: corner-bs-tl-c
+		down: corner-bs-tl-c-p
+	}
+	corner-bs-tl2: {
+		up: corner-bs-tl-c2
+		down: corner-bs-tl-c2-p
+	}
+	corner-bs-tl3: {
+		up: corner-bs-tl-c3
+		down: corner-bs-tl-c3-p
+	}
+	corner-bs-tl4: {
+		up: corner-bs-tl-c4
+		down: corner-bs-tl-c4-p
+	}
+	corner-bs-tl5: {
+		up: corner-bs-tl-c5
+		down: corner-bs-tl-c5-p
+	}
+	corner-bs-tr1: {
+		up: corner-bs-tr-c
+		down: corner-bs-tr-c-p
+	}
+	corner-bs-tr2: {
+		up: corner-bs-tr-c2
+		down: corner-bs-tr-c2-p
+	}
+	corner-bs-tr3: {
+		up: corner-bs-tr-c3
+		down: corner-bs-tr-c3-p
+	}
+	corner-bs-tr4: {
+		up: corner-bs-tr-c4
+		down: corner-bs-tr-c4-p
+	}
+	corner-bs-tr5: {
+		up: corner-bs-tr-c5
+		down: corner-bs-tr-c5-p
+	}
+	corner-bs-br1: {
+		up: corner-bs-br-c
+		down: corner-bs-br-c-p
+	}
+	corner-bs-br2: {
+		up: corner-bs-br-c2
+		down: corner-bs-br-c2-p
+	}
+	corner-bs-br3: {
+		up: corner-bs-br-c3
+		down: corner-bs-br-c3-p
+	}
+	corner-bs-br4: {
+		up: corner-bs-br-c4
+		down: corner-bs-br-c4-p
+	}
+	corner-bs-br5: {
+		up: corner-bs-br-c5
+		down: corner-bs-br-c5-p
+	}
+	corner-bs-bl1: {
+		up: corner-bs-bl-c
+		down: corner-bs-bl-c-p
+	}
+	corner-bs-bl2: {
+		up: corner-bs-bl-c2
+		down: corner-bs-bl-c2-p
+	}
+	corner-bs-bl3: {
+		up: corner-bs-bl-c3
+		down: corner-bs-bl-c3-p
+	}
+	corner-bs-bl4: {
+		up: corner-bs-bl-c4
+		down: corner-bs-bl-c4-p
+	}
+	corner-bs-bl5: {
+		up: corner-bs-bl-c5
+		down: corner-bs-bl-c5-p
+	}
+	endcap-left1: {
+		up: endcap-left-c
+		down: endcap-left-c-p
+	}
+	endcap-left2: {
+		up: endcap-left-c2
+		down: endcap-left-c2-p
+	}
+	endcap-left3: {
+		up: endcap-left-c3
+		down: endcap-left-c3-p
+	}
+	endcap-left4: {
+		up: endcap-left-c4
+		down: endcap-left-c4-p
+	}
+	endcap-left5: {
+		up: endcap-left-c5
+		down: endcap-left-c5-p
+	}
+	endcap-right1: {
+		up: endcap-right-c
+		down: endcap-right-c-p
+	}
+	endcap-right2: {
+		up: endcap-right-c2
+		down: endcap-right-c2-p
+	}
+	endcap-right3: {
+		up: endcap-right-c3
+		down: endcap-right-c3-p
+	}
+	endcap-right4: {
+		up: endcap-right-c4
+		down: endcap-right-c4-p
+	}
+	endcap-right5: {
+		up: endcap-right-c5
+		down: endcap-right-c5-p
+	}
+	endcap-small-left1: {
+		up: endcap-small-left-c
+		down: endcap-small-left-c-p
+	}
+	endcap-small-left2: {
+		up: endcap-small-left-c2
+		down: endcap-small-left-c2-p
+	}
+	endcap-small-left3: {
+		up: endcap-small-left-c3
+		down: endcap-small-left-c3-p
+	}
+	endcap-small-left4: {
+		up: endcap-small-left-c4
+		down: endcap-small-left-c4-p
+	}
+	endcap-small-left5: {
+		up: endcap-small-left-c5
+		down: endcap-small-left-c5-p
+	}
+	endcap-small-right1: {
+		up: endcap-small-right-c
+		down: endcap-small-right-c-p
+	}
+	endcap-small-right2: {
+		up: endcap-small-right-c2
+		down: endcap-small-right-c2-p
+	}
+	endcap-small-right3: {
+		up: endcap-small-right-c3
+		down: endcap-small-right-c3-p
+	}
+	endcap-small-right4: {
+		up: endcap-small-right-c4
+		down: endcap-small-right-c4-p
+	}
+	endcap-small-right5: {
+		up: endcap-small-right-c5
+		down: endcap-small-right-c5-p
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+		fontColor: black
+	}
+	white: {
+		font: font
+		fontColor: white
+	}
+	subtitle: {
+		font: sub-title
+		fontColor: black
+	}
+	subtitle-white: {
+		font: sub-title
+		fontColor: white
+	}
+	title: {
+		font: title
+		fontColor: black
+	}
+	title-white: {
+		font: title
+		fontColor: white
+	}
+	c1: {
+		font: font
+		fontColor: color
+	}
+	c2: {
+		font: font
+		fontColor: color2
+	}
+	c3: {
+		font: font
+		fontColor: color3
+	}
+	c4: {
+		font: font
+		fontColor: color4
+	}
+	c5: {
+		font: font
+		fontColor: color5
+	}
+	subtitle-c1: {
+		font: sub-title
+		fontColor: color
+	}
+	subtitle-c2: {
+		font: sub-title
+		fontColor: color2
+	}
+	subtitle-c3: {
+		font: sub-title
+		fontColor: color3
+	}
+	subtitle-c4: {
+		font: sub-title
+		fontColor: color4
+	}
+	subtitle-c5: {
+		font: sub-title
+		fontColor: color5
+	}
+	title-c1: {
+		font: title
+		fontColor: color
+	}
+	title-c2: {
+		font: title
+		fontColor: color2
+	}
+	title-c3: {
+		font: title
+		fontColor: color3
+	}
+	title-c4: {
+		font: title
+		fontColor: color4
+	}
+	title-c5: {
+		font: title
+		fontColor: color5
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar-back-horizontal-c
+		knobBefore: progress-bar-horizontal
+	}
+	default-vertical: {
+		background: progress-bar-back-vertical-c
+		knobBefore: progress-bar-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: sub-title
+		fontColor: black
+		disabledFontColor: clear
+		up: button-c
+		down: button-c-p
+		disabled: button-disabled-c
+	}
+	toggle: {
+		font: sub-title
+		fontColor: black
+		disabledFontColor: clear
+		up: button-c
+		down: button-c-p
+		checked: button-c-p
+		disabled: button-disabled-c
+	}
+	color2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-c2
+		down: button-c2-p
+		disabled: button-disabled-c2
+	}
+	color3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-c3
+		down: button-c3-p
+		disabled: button-disabled-c3
+	}
+	color4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-c4
+		down: button-c4-p
+		disabled: button-disabled-c4
+	}
+	color5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-c5
+		down: button-c5-p
+		disabled: button-disabled-c5
+	}
+	small1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-small-c
+		down: button-small-c-p
+		disabled: button-small-disabled-c
+	}
+	small2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-small-c2
+		down: button-small-c2-p
+		disabled: button-small-disabled-c2
+	}
+	small3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-small-c3
+		down: button-small-c3-p
+		disabled: button-small-disabled-c3
+	}
+	small4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-small-c4
+		down: button-small-c4-p
+		disabled: button-small-disabled-c4
+	}
+	small5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-small-c5
+		down: button-small-c5-p
+		disabled: button-small-disabled-c5
+	}
+	big1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-big-c
+		down: button-big-c-p
+		disabled: button-big-disabled-c
+	}
+	big2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-big-c2
+		down: button-big-c2-p
+		disabled: button-big-disabled-c2
+	}
+	big3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-big-c3
+		down: button-big-c3-p
+		disabled: button-big-disabled-c3
+	}
+	big4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-big-c4
+		down: button-big-c4-p
+		disabled: button-big-disabled-c4
+	}
+	big5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: button-big-c5
+		down: button-big-c5-p
+		disabled: button-big-disabled-c5
+	}
+	oval1: {
+		font: sub-title
+		fontColor: black
+		disabledFontColor: clear
+		up: button-oval-c
+		down: button-oval-c-p
+	}
+	oval2: {
+		font: sub-title
+		fontColor: black
+		disabledFontColor: clear
+		up: button-oval-c2
+		down: button-oval-c2-p
+	}
+	oval3: {
+		font: sub-title
+		fontColor: black
+		disabledFontColor: clear
+		up: button-oval-c3
+		down: button-oval-c3-p
+	}
+	oval4: {
+		font: sub-title
+		fontColor: black
+		disabledFontColor: clear
+		up: button-oval-c4
+		down: button-oval-c4-p
+	}
+	oval5: {
+		font: sub-title
+		fontColor: black
+		disabledFontColor: clear
+		up: button-oval-c5
+		down: button-oval-c5-p
+	}
+	corner-tl1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tl-c
+		down: corner-tl-c-p
+	}
+	corner-tl2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tl-c2
+		down: corner-tl-c2-p
+	}
+	corner-tl3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tl-c3
+		down: corner-tl-c3-p
+	}
+	corner-tl4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tl-c4
+		down: corner-tl-c4-p
+	}
+	corner-tl5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tl-c5
+		down: corner-tl-c5-p
+	}
+	corner-tr1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tr-c
+		down: corner-tr-c-p
+	}
+	corner-tr2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tr-c2
+		down: corner-tr-c2-p
+	}
+	corner-tr3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tr-c3
+		down: corner-tr-c3-p
+	}
+	corner-tr4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tr-c4
+		down: corner-tr-c4-p
+	}
+	corner-tr5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-tr-c5
+		down: corner-tr-c5-p
+	}
+	corner-br1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-br-c
+		down: corner-br-c-p
+	}
+	corner-br2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-br-c2
+		down: corner-br-c2-p
+	}
+	corner-br3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-br-c3
+		down: corner-br-c3-p
+	}
+	corner-br4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-br-c4
+		down: corner-br-c4-p
+	}
+	corner-br5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-br-c5
+		down: corner-br-c5-p
+	}
+	corner-bl1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bl-c
+		down: corner-bl-c-p
+	}
+	corner-bl2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bl-c
+		down: corner-bl-c-p
+	}
+	corner-bl2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bl-c2
+		down: corner-bl-c2-p
+	}
+	corner-bl3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bl-c3
+		down: corner-bl-c3-p
+	}
+	corner-bl4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bl-c4
+		down: corner-bl-c4-p
+	}
+	corner-bl5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bl-c5
+		down: corner-bl-c5-p
+	}
+	corner-bm-tl1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tl-c
+		down: corner-bm-tl-c-p
+	}
+	corner-bm-tl2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tl-c2
+		down: corner-bm-tl-c2-p
+	}
+	corner-bm-tl3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tl-c3
+		down: corner-bm-tl-c3-p
+	}
+	corner-bm-tl4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tl-c4
+		down: corner-bm-tl-c4-p
+	}
+	corner-bm-tl5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tl-c5
+		down: corner-bm-tl-c5-p
+	}
+	corner-bm-tr1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tr-c
+		down: corner-bm-tr-c-p
+	}
+	corner-bm-tr2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tr-c2
+		down: corner-bm-tr-c2-p
+	}
+	corner-bm-tr3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tr-c3
+		down: corner-bm-tr-c3-p
+	}
+	corner-bm-tr4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tr-c4
+		down: corner-bm-tr-c4-p
+	}
+	corner-bm-tr5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-tr-c5
+		down: corner-bm-tr-c5-p
+	}
+	corner-bm-br1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-br-c
+		down: corner-bs-br-c-p
+	}
+	corner-bm-br2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-br-c2
+		down: corner-bm-br-c2-p
+	}
+	corner-bm-br3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-br-c3
+		down: corner-bm-br-c3-p
+	}
+	corner-bm-br4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-br-c4
+		down: corner-bm-br-c4-p
+	}
+	corner-bm-br5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-br-c5
+		down: corner-bm-br-c5-p
+	}
+	corner-bm-bl1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-bl-c
+		down: corner-bm-bl-c-p
+	}
+	corner-bm-bl2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-bl-c2
+		down: corner-bm-bl-c2-p
+	}
+	corner-bm-bl3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-bl-c3
+		down: corner-bm-bl-c3-p
+	}
+	corner-bm-bl4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-bl-c4
+		down: corner-bm-bl-c4-p
+	}
+	corner-bm-bl5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bm-bl-c5
+		down: corner-bm-bl-c5-p
+	}
+	corner-bs-tl1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tl-c
+		down: corner-bs-tl-c-p
+	}
+	corner-bs-tl2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tl-c2
+		down: corner-bs-tl-c2-p
+	}
+	corner-bs-tl3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tl-c3
+		down: corner-bs-tl-c3-p
+	}
+	corner-bs-tl4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tl-c4
+		down: corner-bs-tl-c4-p
+	}
+	corner-bs-tl5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tl-c5
+		down: corner-bs-tl-c5-p
+	}
+	corner-bs-tr1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tr-c
+		down: corner-bs-tr-c-p
+	}
+	corner-bs-tr2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tr-c2
+		down: corner-bs-tr-c2-p
+	}
+	corner-bs-tr3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tr-c3
+		down: corner-bs-tr-c3-p
+	}
+	corner-bs-tr4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tr-c4
+		down: corner-bs-tr-c4-p
+	}
+	corner-bs-tr5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-tr-c5
+		down: corner-bs-tr-c5-p
+	}
+	corner-bs-br1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-br-c
+		down: corner-bs-br-c-p
+	}
+	corner-bs-br2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-br-c2
+		down: corner-bs-br-c2-p
+	}
+	corner-bs-br3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-br-c3
+		down: corner-bs-br-c3-p
+	}
+	corner-bs-br4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-br-c4
+		down: corner-bs-br-c4-p
+	}
+	corner-bs-br5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-br-c5
+		down: corner-bs-br-c5-p
+	}
+	corner-bs-bl1: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-bl-c
+		down: corner-bs-bl-c-p
+	}
+	corner-bs-bl2: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-bl-c2
+		down: corner-bs-bl-c2-p
+	}
+	corner-bs-bl3: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-bl-c3
+		down: corner-bs-bl-c3-p
+	}
+	corner-bs-bl4: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-bl-c4
+		down: corner-bs-bl-c4-p
+	}
+	corner-bs-bl5: {
+		font: font
+		fontColor: black
+		disabledFontColor: clear
+		up: corner-bs-bl-c5
+		down: corner-bs-bl-c5-p
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+	}
+}
+}
