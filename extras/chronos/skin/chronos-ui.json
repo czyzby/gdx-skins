@@ -1,0 +1,65 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	classic: {
+		file: classic-font-export.fnt
+	}
+	simple: {
+		file: simple-font-export.fnt
+	}
+	stylish: {
+		file: stylish-font-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.ray3k.chronosui.ClockWidget$ClockWidgetStyle: {
+	default: {
+		bg: simple-bg
+		minuteHand: simple-minute
+		secondHand: simple-second
+		hourHand: simple-hour
+		font: simple
+		fontColor: black
+		titleAbove: false
+		name: Default
+	}
+	classic: {
+		bg: classic-bg
+		minuteHand: classic-minute
+		secondHand: classic-second
+		hourHand: classic-hour
+		font: classic
+		fontColor: white
+		titleAbove: false
+		name: Classic
+	}
+	stylish: {
+		bg: stylish-bg
+		minuteHand: stylish-minute
+		secondHand: stylish-second
+		hourHand: stylish-hour
+		font: stylish
+		fontColor: red
+		titleAbove: true
+		name: Stylish
+	}
+}
+}

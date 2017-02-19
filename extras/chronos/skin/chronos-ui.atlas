@@ -1,0 +1,118 @@
+
+chronos-ui.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+bg
+  rotate: false
+  xy: 1, 188
+  size: 300, 300
+  orig: 300, 300
+  offset: 0, 0
+  index: -1
+classic-bg
+  rotate: false
+  xy: 303, 341
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+classic-font-export
+  rotate: false
+  xy: 303, 219
+  size: 120, 120
+  orig: 120, 120
+  offset: 0, 0
+  index: -1
+classic-hour
+  rotate: false
+  xy: 466, 391
+  size: 11, 97
+  orig: 11, 97
+  offset: 0, 0
+  index: -1
+classic-minute
+  rotate: false
+  xy: 450, 214
+  size: 8, 125
+  orig: 8, 125
+  offset: 0, 0
+  index: -1
+classic-second
+  rotate: false
+  xy: 428, 78
+  size: 3, 136
+  orig: 3, 136
+  offset: 0, 0
+  index: -1
+simple-bg
+  rotate: false
+  xy: 150, 47
+  size: 139, 139
+  orig: 139, 139
+  offset: 0, 0
+  index: -1
+simple-font-export
+  rotate: false
+  xy: 291, 1
+  size: 95, 95
+  orig: 95, 95
+  offset: 0, 0
+  index: -1
+simple-hour
+  rotate: false
+  xy: 388, 19
+  size: 4, 77
+  orig: 4, 77
+  offset: 0, 0
+  index: -1
+simple-minute
+  rotate: false
+  xy: 422, 101
+  size: 4, 113
+  orig: 4, 113
+  offset: 0, 0
+  index: -1
+simple-second
+  rotate: false
+  xy: 433, 95
+  size: 3, 119
+  orig: 3, 119
+  offset: 0, 0
+  index: -1
+stylish-bg
+  rotate: false
+  xy: 1, 39
+  size: 147, 147
+  orig: 147, 147
+  offset: 0, 0
+  index: -1
+stylish-font-export
+  rotate: false
+  xy: 303, 98
+  size: 117, 119
+  orig: 117, 119
+  offset: 0, 0
+  index: -1
+stylish-hour
+  rotate: false
+  xy: 452, 387
+  size: 12, 101
+  orig: 12, 101
+  offset: 0, 0
+  index: -1
+stylish-minute
+  rotate: false
+  xy: 425, 216
+  size: 12, 123
+  orig: 12, 123
+  offset: 0, 0
+  index: -1
+stylish-second
+  rotate: false
+  xy: 439, 206
+  size: 9, 133
+  orig: 9, 133
+  offset: 0, 0
+  index: -1
