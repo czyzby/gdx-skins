@@ -1,0 +1,514 @@
+{
+com.badlogic.gdx.graphics.g2d.BitmapFont: {
+	font: {
+		file: font-export.fnt
+	}
+	title: {
+		file: font-title-export.fnt
+	}
+}
+com.badlogic.gdx.graphics.Color: {
+	black: {
+		r: 0
+		g: 0
+		b: 0
+		a: 1
+	}
+	clear: {
+		r: 1
+		g: 1
+		b: 1
+		a: 0
+	}
+	color-picker-bg: {
+		r: 0
+		g: 0
+		b: 0
+		a: 0.73333323
+	}
+	gray: {
+		r: 0.5
+		g: 0.5
+		b: 0.5
+		a: 1
+	}
+	light-gray: {
+		r: 0.86
+		g: 0.86
+		b: 0.86
+		a: 1
+	}
+	link: {
+		r: 0.53039217
+		g: 1
+		b: 0.97936153
+		a: 1
+	}
+	red: {
+		r: 1
+		g: 0
+		b: 0
+		a: 1
+	}
+	white: {
+		r: 1
+		g: 1
+		b: 1
+		a: 1
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
+	black: {
+		name: white
+		color: black
+	}
+	gray: {
+		name: white
+		color: gray
+	}
+	test: {
+		name: textfield-pressed
+		color: red
+	}
+	color-picker-bg: {
+		name: white
+		color: color-picker-bg
+	}
+	clear: {
+		name: white
+		color: clear
+	}
+	link-underline: {
+		name: white
+		color: link
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Button$ButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.CheckBox$CheckBoxStyle: {
+	default: {
+		checkboxOn: checkbox-checked
+		checkboxOff: checkbox
+		font: font
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageButton$ImageButtonStyle: {
+	default: {
+		up: button
+		down: button-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ImageTextButton$ImageTextButtonStyle: {
+	default: {
+		font: font
+		up: button
+		down: button-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
+	default: {
+		font: font
+	}
+	menuitem-shortcut: {
+		font: font
+	}
+	small: {
+		font: font
+	}
+	title: {
+		font: title
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.List$ListStyle: {
+	default: {
+		font: font
+		fontColorSelected: white
+		fontColorUnselected: light-gray
+		selection: selection
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ProgressBar$ProgressBarStyle: {
+	default-horizontal: {
+		background: progress-bar-horizontal
+		knobBefore: progress-bar-knob-horizontal
+	}
+	default-vertical: {
+		background: progress-bar-vertical
+		knobBefore: progress-bar-knob-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.ScrollPane$ScrollPaneStyle: {
+	default: {
+		hScrollKnob: scrollbar-horizontal
+		vScrollKnob: scrollbar-vertical
+	}
+	list: {
+		hScrollKnob: scrollbar-horizontal
+		vScrollKnob: scrollbar-vertical
+	}
+	select-box: {
+		background: list
+		hScrollKnob: scrollbar-horizontal
+		vScrollKnob: scrollbar-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox$SelectBoxStyle: {
+	default: {
+		font: font
+		fontColor: white
+		background: select-box
+		scrollStyle: select-box
+		listStyle: default
+		backgroundOpen: select-box-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Slider$SliderStyle: {
+	default-horizontal: {
+		knobDown: slider-knob-pressed-horizontal
+		background: progress-bar-horizontal
+		knob: slider-knob-horizontal
+		knobBefore: progress-bar-knob-horizontal
+	}
+	default-vertical: {
+		knobDown: slider-knob-pressed-vertical
+		background: progress-bar-vertical
+		knob: slider-knob-vertical
+		knobBefore: progress-bar-knob-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.SplitPane$SplitPaneStyle: {
+	default-horizontal: {
+		handle: splitpane-horizontal
+	}
+	default-vertical: {
+		handle: splitpane-vertical
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextButton$TextButtonStyle: {
+	default: {
+		font: font
+		up: button
+		down: button-pressed
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
+	default: {
+		font: font
+		fontColor: white
+		focusedFontColor: black
+		background: textfield
+		focusedBackground: textfield-pressed
+		cursor: black
+		selection: gray
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.TextTooltip$TextTooltipStyle: {
+	default: {
+		label: default
+		background: button
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Touchpad$TouchpadStyle: {
+	default: {
+		background: touchpad
+		knob: touchpad-knob
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Tree$TreeStyle: {
+	default: {
+		plus: tree-plus
+		minus: tree-minus
+	}
+}
+com.badlogic.gdx.scenes.scene2d.ui.Window$WindowStyle: {
+	default: {
+		background: window
+		titleFont: font
+	}
+}
+com.kotcrab.vis.ui.Sizes: {
+	default: {
+		scaleFactor: 1
+		spacingBottom: 8
+		spacingRight: 6
+		buttonBarSpacing: 10
+		menuItemIconSize: 22
+		borderSize: 1
+		spinnerButtonHeight: 12
+		spinnerFieldSize: 50
+		fileChooserViewModeBigIconsSize: 200
+		fileChooserViewModeMediumIconsSize: 128
+		fileChooserViewModeSmallIconsSize: 64
+		fileChooserViewModeListWidthSize: 150
+	}
+}
+com.kotcrab.vis.ui.widget.VisTextField$VisTextFieldStyle: {
+	default: {
+		font: font
+		fontColor: white
+		selection: gray
+		background: textfield
+		cursor: black
+		focusedFontColor: black
+		focusedBackground: textfield-pressed
+	}
+}
+com.kotcrab.vis.ui.widget.VisTextButton$VisTextButtonStyle: {
+	default: {
+		down: button-pressed
+		up: button
+		font: font
+		fontColor: white
+		downFontColor: light-gray
+	}
+	menu: {
+		down: menu-button-down
+		up: menu-button
+		over: menu-button-down
+		font: font
+		fontColor: white
+		downFontColor: light-gray
+	}
+	toggle: {
+		down: button-pressed
+		up: button
+		font: font
+		fontColor: white
+		checked: button-pressed
+		downFontColor: light-gray
+	}
+	tab: {
+		down: tab-pressed
+		up: tab-pressed
+		font: font
+		fontColor: white
+		checked: tab
+	}
+}
+com.kotcrab.vis.ui.widget.VisImageButton$VisImageButtonStyle: {
+	default: {
+		down: button-pressed
+		up: button
+	}
+	close-window: {
+		down: button-pressed
+		over: button
+		imageUp: icon-close
+	}
+	arrow-1: {
+		down: button-pressed
+		up: button
+		checked: button-pressed
+		imageUp: icon-arrow-1
+	}
+	arrow-2: {
+		down: button-pressed
+		up: button
+		checked: button-pressed
+		imageUp: icon-arrow-2
+	}
+	rect: {
+		down: button-pressed
+		up: button
+		checked: button-pressed
+		imageUp: icon-rect
+	}
+	pencil: {
+		down: button-pressed
+		up: button
+		checked: button-pressed
+		imageUp: icon-pencil
+	}
+	brush: {
+		down: button-pressed
+		up: button
+		checked: button-pressed
+		imageUp: icon-brush
+	}
+	close-active-tab: {
+		down: button-pressed
+		over: button
+		imageUp: icon-close
+	}
+	close: {
+		down: button-pressed
+		over: button
+		imageUp: icon-close
+	}
+}
+com.kotcrab.vis.ui.widget.VisImageTextButton$VisImageTextButtonStyle: {
+	default: {
+		down: button-pressed
+		up: button
+		font: font
+		fontColor: white
+		downFontColor: light-gray
+	}
+}
+com.kotcrab.vis.ui.widget.VisCheckBox$VisCheckBoxStyle: {
+	default: {
+		checkBackground: checkbox
+		checkBackgroundOver: checkbox
+		checkBackgroundDown: checkbox-pressed
+		tick: check
+		font: font
+	}
+	radio: {
+		checkBackground: radio
+		checkBackgroundOver: radio
+		checkBackgroundDown: radio-pressed
+		tick: check-radio
+		font: font
+	}
+}
+com.kotcrab.vis.ui.widget.PopupMenu$PopupMenuStyle: {
+	default: {
+		background: button
+	}
+}
+com.kotcrab.vis.ui.widget.Menu$MenuStyle: {
+	default: {
+		background: button
+		openButtonStyle: menu
+	}
+}
+com.kotcrab.vis.ui.widget.MenuBar$MenuBarStyle: {
+	default: {
+		background: menu-bar
+	}
+}
+com.kotcrab.vis.ui.widget.Separator$SeparatorStyle: {
+	default: {
+		background: splitpane-vertical-pressed
+		thickness: 4
+	}
+	menu: {
+		background: black
+		thickness: 1
+	}
+}
+com.kotcrab.vis.ui.widget.VisSplitPane$VisSplitPaneStyle: {
+	default: {
+		handle: splitpane-horizontal
+	}
+	default-vertical: {
+		handle: splitpane-vertical
+		handleOver: splitpane-vertical-pressed
+	}
+	default-horizontal: {
+		handle: splitpane-horizontal
+		handleOver: splitpane-horizontal-pressed
+	}
+}
+com.kotcrab.vis.ui.widget.MultiSplitPane$MultiSplitPaneStyle: {
+	default: {}
+	default-horizontal: {
+		handle: splitpane-horizontal
+		handleOver: splitpane-horizontal-pressed
+	}
+	default-vertical: {
+		handle: splitpane-vertical
+		handleOver: splitpane-vertical-pressed
+	}
+}
+com.kotcrab.vis.ui.widget.MenuItem$MenuItemStyle: {
+	default: {
+		subMenu: icon-right
+		down: menu-button-down
+		up: menu-button
+		over: menu-button-over
+		font: font
+		fontColor: white
+	}
+}
+com.kotcrab.vis.ui.widget.Tooltip$TooltipStyle: {
+	default: {
+		background: list
+	}
+}
+com.kotcrab.vis.ui.widget.LinkLabel$LinkLabelStyle: {
+	default: {
+		fontColor: link
+		underline: link-underline
+		font: font
+	}
+}
+com.kotcrab.vis.ui.widget.tabbedpane.TabbedPane$TabbedPaneStyle: {
+	default: {
+		buttonStyle: tab
+		vertical: false
+		draggable: false
+	}
+}
+com.kotcrab.vis.ui.widget.spinner.Spinner$SpinnerStyle: {
+	default: {
+		down: spinner-down
+		up: spinner-up
+	}
+}
+com.kotcrab.vis.ui.widget.file.FileChooserStyle: {
+	default: {
+		highlight: gray
+		popupMenuStyle: default
+		iconArrowLeft: icon-left
+		iconArrowRight: icon-right
+		iconFolder: icon-folder
+		iconFolderParent: icon-folder-parent
+		iconFolderNew: icon-folder-new
+		iconDrive: icon-drive
+		iconFolderStar: icon-folder-star
+		iconTrash: icon-trash
+		iconStar: icon-star
+		iconStarOutline: icon-star-outline
+		iconRefresh: icon-refresh
+		iconFileText: icon-file-text
+		iconFileImage: icon-file-image
+		iconFilePdf: icon-file-pdf
+		iconFileAudio: icon-file-audio
+		iconListSettings: icon-settings
+		contextMenuSelectedItem: check-radio
+		expandDropdown: expand-drop-down
+	}
+}
+com.kotcrab.vis.ui.widget.color.ColorPickerWidgetStyle: {
+	default: {
+		barSelector: bar-selector
+		cross: bar-selector
+		iconArrowRight: icon-right
+		verticalSelector: clear
+		horizontalSelector: clear
+	}
+}
+com.kotcrab.vis.ui.widget.color.ColorPickerStyle: {
+	default: {
+		titleFont: font
+		background: window
+		titleFontColor: white
+		pickerStyle: default
+		stageBackground: color-picker-bg
+	}
+}
+com.kotcrab.vis.ui.widget.BusyBar$BusyBarStyle: {
+	default: {
+		height: 5
+		segment: splitpane-vertical
+		segmentWidth: 150
+		segmentOverflow: 10
+	}
+}
+com.kotcrab.vis.ui.widget.ListViewStyle: {
+	default: {
+		scrollPaneStyle: default
+	}
+}
+com.kotcrab.vis.ui.util.form.SimpleFormValidator$FormValidatorStyle: {
+	default: {
+		errorLabelColor: red
+		validLabelColor: black
+	}
+}
+}
