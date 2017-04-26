@@ -6,7 +6,7 @@ One could argue that it's the right approach, as it keeps framework's core `jar`
 
 This repository contains *something*. (Actually, a few somethings.)
 
-#### [**DOWNLOAD. ALL OF THEM.**](https://github.com/czyzby/gdx-skins/archive/master.zip)
+### [**DOWNLOAD. ALL OF THEM.**](https://github.com/czyzby/gdx-skins/archive/master.zip)
 
 ### Free assets
 
@@ -30,7 +30,7 @@ Using some skin found in the web is one thing, but customizing it - or creating 
 - [gdx-skineditor](https://github.com/cobolfoo/gdx-skineditor) is an application that allows you to create custom skins. While it doesn't seem to be currently maintained (and is able to crash from time to time), it might still prove useful. Keep in mind that it's still worth to understand skin's *JSON* internals before using this tool.
 - [VisUI library](https://github.com/kotcrab/vis-editor/wiki/VisUI) extends *Scene2D* with custom widgets and some default skins. Even if you don't like its flat design theme, consider including this library for its new useful actors.
 - [USL library](https://github.com/kotcrab/vis-editor/wiki/USL) allows you to quickly create *JSON* files thanks to its simplified, less boilerplate-ish and more powerful syntax. `.usl` files are meant be compiled to LibGDX `.json` skin definitions before deploying the application - there is no runtime overhead.
-- [KTX library](https://github.com/czyzby/ktx) contains [Kotlin](http://kotlinlang.org/) utilities for defining *Scene2D* styles and widgets. It can be a great alternative to error-prone `.json` skin files and overly verbose Java GUI building code.
+- [KTX library](https://github.com/libktx/ktx) contains [Kotlin](http://kotlinlang.org/) utilities for building *Scene2D* styles and widgets. It can be a great alternative to error-prone `.json` skin files and overly verbose Java GUI building code.
 - [LML library](https://github.com/czyzby/gdx-lml/tree/master/lml) makes it easier to create your *Scene2D* views. Instead of verbose Java syntax, LML allows you to create your GUIs with HTML-like templates packed with powerful macros. With LML, you can separate your GUI layer from application's core logic, and quickly use some easily overlooked LibGDX features (like *i18n* support) without the usual Java boilerplate. [VisUI](https://github.com/kotcrab/vis-editor/wiki/VisUI) is also supported in LML thanks to an [extension](https://github.com/czyzby/gdx-lml/tree/master/lml-vis).
 - [GamesFromScratch blog](http://www.gamefromscratch.com/post/2013/11/27/LibGDX-Tutorial-9-Scene2D-Part-1.aspx) includes a multi-part *Scene2D* tutorial.
 - [Pimentoso Software blog](http://pimentoso.blogspot.com/2013/04/libgdx-scene2d-skin-quick-tutorial.html) contains a simple *Scene2D* tutorial.
@@ -42,4 +42,5 @@ Using some skin found in the web is one thing, but customizing it - or creating 
 
 ## Contributing
 
-Maintainer will gladly accept any pull requests with additional resources - not only new skins, but also useful links and texts. He'd appreciate help with keeping skin files up-to-date: if this repository helped you with your application, the least you could do is check if any resources require an update and leave an issue or create a pull request.
+Maintainer will gladly accept any pull requests with additional resources - not only new skins, but also useful links and texts. Helping with keeping skin files up-to-date is also appreciated: don't hesitate to leave an issue or create a pull request if any resources are outdated.
+
