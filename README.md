@@ -34,7 +34,7 @@ If you're learning *Scene2D* API, make sure to check out these resources.
 [![LibGDX Texture Packer GUI](.github/images/texture-packer.png)](https://github.com/crashinvaders/gdx-texture-packer-gui)
 
 [Texture Packer GUI](https://github.com/crashinvaders/gdx-texture-packer-gui) allows to create texture atlases from
-multiple images. It provides a graphical interface for [the official texture packer tool](https://github.com/libgdx/libgdx/wiki/Texture-packer).
+multiple images. It provides a graphical interface for [the official texture packer tool](https://libgdx.com/wiki/tools/texture-packer).
 
 [![IntelliJ LibGDX plugin](.github/images/intellij-plugin.png)](https://github.com/BlueBoxWare/LibGDXPlugin)
 
@@ -60,13 +60,13 @@ libraries and generate code with one of predefined project templates.
 
 ### Helpful articles
 
-- [Official Scene2D article](https://github.com/libgdx/libgdx/wiki/Scene2d).
-[Scene2D UI](https://github.com/libgdx/libgdx/wiki/Scene2d.ui) and [`Table`](https://github.com/libgdx/libgdx/wiki/Table)
+- [Official Scene2D article](https://libgdx.com/wiki/graphics/2d/scene2d/scene2d).
+[Scene2D UI](https://libgdx.com/wiki/graphics/2d/scene2d/scene2d-ui) and [`Table`](https://libgdx.com/wiki/graphics/2d/scene2d/table)
 pages are worth your time as well.
-- [Official `Skin` article](https://github.com/libgdx/libgdx/wiki/Skin).
-- [Official texture packer](https://github.com/libgdx/libgdx/wiki/Texture-packer) and
-[Hiero tool](https://github.com/libgdx/libgdx/wiki/Hiero) articles, both of which are useful when preparing `Skin` assets. 
-- [Official ninepatches article](https://github.com/libgdx/libgdx/wiki/Ninepatches) might help you understand how to
+- [Official `Skin` article](https://libgdx.com/wiki/graphics/2d/scene2d/skin).
+- [Official texture packer](https://libgdx.com/wiki/tools/texture-packer) and
+[Hiero tool](https://libgdx.com/wiki/tools/hiero) articles, both of which are useful when preparing `Skin` assets. 
+- [Official ninepatches article](https://libgdx.com/wiki/graphics/2d/ninepatches) might help you understand how to
 make skins that look well when resized.
 - [This article](https://rskupnik.github.io/libgdx-ui-overview) is an amazing introduction into LibGDX GUI tools.
 - [GamesFromScratch blog](http://www.gamefromscratch.com/post/2013/11/27/LibGDX-Tutorial-9-Scene2D-Part-1.aspx) includes
