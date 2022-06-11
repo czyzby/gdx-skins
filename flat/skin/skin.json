@@ -17,11 +17,11 @@
     selection: { r: 0.3, g: 0, b: 0, a: 1 },
     semiTransparent: { r: 0, g: 0, b: 0, a: 0.6 },
     
-    font: white
-    fontOver: white
-    fontDown: gray
-    fontChecked: white
-    fontCheckedOver: white
+    font: white,
+    fontOver: white,
+    fontDown: gray,
+    fontChecked: white,
+    fontCheckedOver: white,
     fontDisabled: gray
   },
   com.badlogic.gdx.scenes.scene2d.ui.Skin$TintedDrawable: {
